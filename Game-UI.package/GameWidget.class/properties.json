@@ -1,0 +1,17 @@
+{
+	"category" : "Game-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "r 7/11/2026 15:46",
+	"instvars" : [
+		"x",
+		"y",
+		"height",
+		"width" ],
+	"name" : "GameWidget",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

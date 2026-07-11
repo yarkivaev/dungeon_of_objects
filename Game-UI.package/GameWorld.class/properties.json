@@ -1,0 +1,14 @@
+{
+	"category" : "Game-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GameWorld",
+	"pools" : [
+		 ],
+	"super" : "ContainerWidget",
+	"type" : "normal" }
