@@ -1,0 +1,14 @@
+{
+	"category" : "Dungeon-Keepers-3",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "IncubatorRoom",
+	"pools" : [
+		 ],
+	"super" : "Room",
+	"type" : "normal" }

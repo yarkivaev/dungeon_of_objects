@@ -1,0 +1,18 @@
+{
+	"category" : "Dungeon-Keepers-3",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"type",
+		"hp",
+		"time",
+		"size",
+		"price" ],
+	"name" : "Room",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
