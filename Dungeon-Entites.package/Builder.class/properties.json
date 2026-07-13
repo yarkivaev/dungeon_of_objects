@@ -1,0 +1,14 @@
+{
+	"category" : "Dungeon-Entites",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "Builder",
+	"pools" : [
+		 ],
+	"super" : "Worker",
+	"type" : "normal" }

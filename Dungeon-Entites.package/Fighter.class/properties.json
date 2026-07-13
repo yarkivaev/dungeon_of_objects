@@ -1,0 +1,14 @@
+{
+	"category" : "Dungeon-Entites",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "Fighter",
+	"pools" : [
+		 ],
+	"super" : "Creature",
+	"type" : "normal" }

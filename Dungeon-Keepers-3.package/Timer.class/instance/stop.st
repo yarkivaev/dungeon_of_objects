@@ -1,3 +1,0 @@
-timeChange
-stop
-	isRunning := false.
