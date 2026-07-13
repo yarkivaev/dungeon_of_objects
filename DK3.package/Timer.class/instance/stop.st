@@ -1,0 +1,3 @@
+timeChange
+stop
+	isRunning := false.

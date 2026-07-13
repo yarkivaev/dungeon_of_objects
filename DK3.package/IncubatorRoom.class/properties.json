@@ -1,0 +1,14 @@
+{
+	"category" : "DK3-Rooms",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "IncubatorRoom",
+	"pools" : [
+		 ],
+	"super" : "Room",
+	"type" : "normal" }

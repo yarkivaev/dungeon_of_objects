@@ -1,0 +1,19 @@
+{
+	"category" : "DK3-Timer",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"game",
+		"world",
+		"lastTime",
+		"currentTime",
+		"dt",
+		"isRunning" ],
+	"name" : "Timer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

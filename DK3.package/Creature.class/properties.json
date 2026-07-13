@@ -1,0 +1,19 @@
+{
+	"category" : "DK3-Entities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"name",
+		"health",
+		"attack",
+		"hunger",
+		"level",
+		"position" ],
+	"name" : "Creature",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

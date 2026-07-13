@@ -1,0 +1,19 @@
+{
+	"category" : "DK3-Rooms",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"type",
+		"player",
+		"hp",
+		"time",
+		"size",
+		"price" ],
+	"name" : "Room",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

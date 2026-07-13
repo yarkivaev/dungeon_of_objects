@@ -1,0 +1,14 @@
+{
+	"category" : "DK3-Entities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "Digger",
+	"pools" : [
+		 ],
+	"super" : "Worker",
+	"type" : "normal" }

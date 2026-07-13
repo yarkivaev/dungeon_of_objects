@@ -1,0 +1,19 @@
+{
+	"category" : "DK3-User",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"goldAmount",
+		"maxGold",
+		"paydayAmount",
+		"foodAmount",
+		"creaturesList",
+		"bestiaryDict" ],
+	"name" : "User",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
