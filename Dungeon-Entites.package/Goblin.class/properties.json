@@ -1,0 +1,14 @@
+{
+	"category" : "Dungeon-Entites",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "Goblin",
+	"pools" : [
+		 ],
+	"super" : "Fighter",
+	"type" : "normal" }

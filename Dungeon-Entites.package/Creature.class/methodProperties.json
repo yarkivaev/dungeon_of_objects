@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"spawn:" : "Egor 7/11/2026 15:35" },
+	"instance" : {
+		"attack:" : "Egor 7/11/2026 14:02",
+		"die" : "Egor 7/11/2026 14:06",
+		"gainLevel:" : "Egor 7/11/2026 15:12",
+		"hunger" : "Egor 7/11/2026 14:06",
+		"initialize" : "Egor 7/11/2026 15:19",
+		"moveTo:" : "Egor 7/11/2026 15:22",
+		"name" : "Egor 7/11/2026 14:16",
+		"position" : "Egor 7/11/2026 15:23",
+		"position:" : "Egor 7/11/2026 15:37",
+		"takeDamage:" : "Egor 7/11/2026 14:01",
+		"update:" : "Egor 7/11/2026 15:14" } }
