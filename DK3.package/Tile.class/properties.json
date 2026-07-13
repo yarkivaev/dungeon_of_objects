@@ -1,14 +1,16 @@
 {
-	"category" : "DK3-UI",
+	"category" : "DK3-GameMap",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "GameWorld",
+		"map",
+		"x",
+		"y" ],
+	"name" : "Tile",
 	"pools" : [
 		 ],
-	"super" : "ContainerWidget",
+	"super" : "Object",
 	"type" : "normal" }

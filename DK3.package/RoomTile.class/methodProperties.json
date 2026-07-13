@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addResource:" : "vvk 7/11/2026 14:38",
+		"demolish" : "vvk 7/11/2026 16:46",
+		"executeRoomWorkFor:" : "vvk 7/11/2026 14:39",
+		"isPassable" : "vvk 7/11/2026 14:37",
+		"owner" : "vvk 7/11/2026 14:38",
+		"resources" : "vvk 7/11/2026 14:39",
+		"roomType" : "vvk 7/11/2026 14:38",
+		"setOwner:type:" : "vvk 7/11/2026 14:38" } }
