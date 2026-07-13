@@ -1,0 +1,14 @@
+{
+	"category" : "Game field",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"durability" ],
+	"name" : "EarthTile",
+	"pools" : [
+		 ],
+	"super" : "OwnedTile",
+	"type" : "normal" }

@@ -1,0 +1,15 @@
+{
+	"category" : "Game field",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"roomType",
+		"resources" ],
+	"name" : "RoomTile",
+	"pools" : [
+		 ],
+	"super" : "OwnedTile",
+	"type" : "normal" }

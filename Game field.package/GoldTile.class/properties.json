@@ -1,0 +1,15 @@
+{
+	"category" : "Game field",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"goldAmount",
+		"durability" ],
+	"name" : "GoldTile",
+	"pools" : [
+		 ],
+	"super" : "Tile",
+	"type" : "normal" }

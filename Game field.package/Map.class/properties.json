@@ -1,0 +1,16 @@
+{
+	"category" : "Game field",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"grid",
+		"width",
+		"height" ],
+	"name" : "Map",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

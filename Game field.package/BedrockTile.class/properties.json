@@ -1,0 +1,14 @@
+{
+	"category" : "Game field",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BedrockTile",
+	"pools" : [
+		 ],
+	"super" : "Tile",
+	"type" : "normal" }

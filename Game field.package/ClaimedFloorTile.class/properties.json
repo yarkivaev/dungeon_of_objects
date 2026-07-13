@@ -1,0 +1,14 @@
+{
+	"category" : "Game field",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ClaimedFloorTile",
+	"pools" : [
+		 ],
+	"super" : "OwnedTile",
+	"type" : "normal" }
