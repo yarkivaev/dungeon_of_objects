@@ -1,16 +1,19 @@
 {
 	"category" : "Dungeon-Keepers-3",
 	"classinstvars" : [
-		 ],
+		"globalId" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
 		"type",
+		"player",
+		"maxHp",
 		"hp",
 		"time",
 		"size",
-		"price" ],
+		"price",
+		"id" ],
 	"name" : "Room",
 	"pools" : [
 		 ],

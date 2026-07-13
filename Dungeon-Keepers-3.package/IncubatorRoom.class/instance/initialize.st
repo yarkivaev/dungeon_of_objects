@@ -3,7 +3,8 @@ initialize
 	super initialize.
 	
 	type := 'Incubator'.
-	hp := 100.
+	maxHp := 100.
+	hp := maxHp.
 	size := 2.
 	time := 90.
 	price := 1000

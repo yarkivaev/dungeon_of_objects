@@ -2,8 +2,12 @@ as yet unclassified
 create: user
 	| room |
 	room := self new.
-	user getGold >= (room price) ifTrue: [
+	user getGold >= (room price) ifTrue: [		
+		globalId := globalId + 1.
+		
 		user goldDiscard: (room price).
-		^ room.
+		user addRoom: room id: globalId.
+		
+		^room.
 	].
 	

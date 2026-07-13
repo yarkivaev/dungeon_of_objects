@@ -3,6 +3,7 @@ initialize
 	super initialize.
 	
 	type := 'Heart'.
-	hp := 1000.
+	maxHp := 1000.
+	hp := maxHp.
 	size := 3.
 	

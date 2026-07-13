@@ -7,9 +7,12 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"goldAmount",
+		"maxGold",
 		"paydayAmount",
+		"foodAmount",
 		"creaturesList",
-		"bestiaryList" ],
+		"roomsDict",
+		"bestiaryDict" ],
 	"name" : "User",
 	"pools" : [
 		 ],

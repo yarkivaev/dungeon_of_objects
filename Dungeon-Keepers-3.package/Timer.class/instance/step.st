@@ -1,4 +1,4 @@
-as yet unclassified
+helperMethods
 step
 	self calculateDeltaTime.
 	world update: dt.

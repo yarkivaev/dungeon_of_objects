@@ -1,3 +1,3 @@
-as yet unclassified
+setters
 goldAdd: gold
 	goldAmount := goldAmount + gold.

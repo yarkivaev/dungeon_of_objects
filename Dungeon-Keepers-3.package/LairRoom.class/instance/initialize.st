@@ -3,7 +3,8 @@ initialize
 	super initialize.
 	
 	type := 'Lair'.
-	hp := 70.
+	maxHp := 70.
+	hp := maxHp.
 	size := 1.
 	price := 500.
 	time := 30.

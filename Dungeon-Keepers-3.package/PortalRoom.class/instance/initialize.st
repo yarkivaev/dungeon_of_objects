@@ -5,7 +5,8 @@ initialize
 	type := 'Portal'.
 	price := 1000.
 	time := 120.
-	hp := 100.
+	maxHp := 100.
+	hp := maxHp.
 	size := 2.
 	
 	

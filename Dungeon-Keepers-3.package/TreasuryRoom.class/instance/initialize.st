@@ -2,8 +2,11 @@ as yet unclassified
 initialize
 	super initialize.
 	
-	type := 'Portal'.
+	type := 'Treasury'.
 	price := 1500.
 	time := 60.
-	hp := 150.
+	maxHp := 150.
+	hp := maxHp.
 	size := 3.
+	
+	player maxGoldAdd: 1500.

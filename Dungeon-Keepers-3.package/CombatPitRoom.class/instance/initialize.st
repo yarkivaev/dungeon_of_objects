@@ -6,6 +6,7 @@ initialize
 	price := 5000.
 	size := 3.
 	time := 210.
-	hp := 250.
+	maxHp := 250.
+	hp := maxHp.
 	
 	maxCreatures := 2.

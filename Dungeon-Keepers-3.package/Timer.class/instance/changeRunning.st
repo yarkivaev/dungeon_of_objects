@@ -1,4 +1,4 @@
-as yet unclassified
+helperMethods
 changeRunning
 	isRunning ifFalse: [
 		isRunning := true.	
