@@ -6,6 +6,8 @@ SystemOrganization addCategory: #'DK3-GameMap'!
 SystemOrganization addCategory: #'DK3-GameMap-Tests'!
 SystemOrganization addCategory: #'DK3-Rooms'!
 SystemOrganization addCategory: #'DK3-Rooms-Tests'!
+SystemOrganization addCategory: #'DK3-Textures'!
+SystemOrganization addCategory: #'DK3-Textures-Tests'!
 SystemOrganization addCategory: #'DK3-Timer'!
 SystemOrganization addCategory: #'DK3-Timer-Tests'!
 SystemOrganization addCategory: #'DK3-UI'!

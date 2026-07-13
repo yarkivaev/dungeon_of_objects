@@ -4,11 +4,14 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "r 7/11/2026 15:46",
 	"instvars" : [
-		 ],
-	"name" : "GameWorld",
+		"x",
+		"y",
+		"height",
+		"width" ],
+	"name" : "GameWidget",
 	"pools" : [
 		 ],
-	"super" : "ContainerWidget",
+	"super" : "Object",
 	"type" : "normal" }

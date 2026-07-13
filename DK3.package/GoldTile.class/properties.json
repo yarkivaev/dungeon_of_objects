@@ -1,14 +1,15 @@
 {
-	"category" : "DK3-UI",
+	"category" : "DK3-GameMap",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "GameWorld",
+		"goldAmount",
+		"durability" ],
+	"name" : "GoldTile",
 	"pools" : [
 		 ],
-	"super" : "ContainerWidget",
+	"super" : "Tile",
 	"type" : "normal" }
