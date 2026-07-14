@@ -1,0 +1,16 @@
+{
+	"category" : "DK3-Game-Tests",
+	"classinstvars" : [
+		"testClassCreation",
+		"game",
+		"testGameStopping" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"game" ],
+	"name" : "GameClassTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
