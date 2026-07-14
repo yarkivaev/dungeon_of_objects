@@ -1,2 +1,3 @@
 as yet unclassified
-build
+getDict
+	^roomsDict.

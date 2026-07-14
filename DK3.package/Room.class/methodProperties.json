@@ -1,11 +1,17 @@
 {
 	"class" : {
-		"create:" : "Andrew Fomin 7/11/2026 14:23" },
+		"create:" : "Andrew Fomin 7/14/2026 10:46",
+		"globalId" : "Andrew Fomin 7/13/2026 11:42",
+		"initialize" : "Andrew Fomin 7/13/2026 11:40" },
 	"instance" : {
-		"build" : "Andrew Fomin 7/11/2026 20:24",
-		"cells" : "Andrew 7/11/2026 12:09",
-		"destroy" : "Andrew 7/11/2026 12:08",
-		"heal" : "Andrew 7/11/2026 12:08",
-		"id" : "Andrew 7/11/2026 12:08",
-		"initialize:" : "Andrew Fomin 7/11/2026 20:27",
+		"destroy:" : "Andrew Fomin 7/13/2026 12:00",
+		"getHp" : "Andrew Fomin 7/14/2026 10:23",
+		"getId" : "Andrew Fomin 7/13/2026 12:01",
+		"getMaxHp" : "Andrew Fomin 7/14/2026 10:23",
+		"getPlayer" : "Andrew Fomin 7/14/2026 10:44",
+		"getPrice" : "Andrew Fomin 7/14/2026 10:20",
+		"getSize" : "Andrew Fomin 7/14/2026 10:22",
+		"getType" : "Andrew Fomin 7/14/2026 10:43",
+		"heal:" : "Andrew Fomin 7/13/2026 11:50",
+		"initialize" : "Andrew Fomin 7/14/2026 10:14",
 		"update:" : "Andrew Fomin 7/11/2026 15:14" } }

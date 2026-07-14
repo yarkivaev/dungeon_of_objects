@@ -1,0 +1,15 @@
+{
+	"category" : "DK3-Rooms-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"room",
+		"user" ],
+	"name" : "RoomClassTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
