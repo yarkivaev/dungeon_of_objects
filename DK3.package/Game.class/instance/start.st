@@ -1,7 +1,7 @@
 as yet unclassified
 start
 	isRunning := true.
-	world := GameWorld new.
+	world := GameUpdate new.
 	
 	timer := Timer new.
 	timer setWorld: world setGame: self.

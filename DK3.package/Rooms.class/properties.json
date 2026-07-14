@@ -6,15 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"type",
-		"player",
-		"hp",
-		"maxHp",
-		"time",
-		"size",
-		"price",
-		"id" ],
-	"name" : "Room",
+		"roomsDict" ],
+	"name" : "Rooms",
 	"pools" : [
 		 ],
 	"super" : "Object",
