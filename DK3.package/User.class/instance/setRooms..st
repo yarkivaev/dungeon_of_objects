@@ -1,3 +1,3 @@
-as yet unclassified
+setters
 setRooms: rooms
 	roomsDict := rooms.

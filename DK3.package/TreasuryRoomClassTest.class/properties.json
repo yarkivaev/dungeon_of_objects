@@ -1,0 +1,15 @@
+{
+	"category" : "DK3-Rooms-Tests",
+	"classinstvars" : [
+		"testMaxGoldAdding" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"room",
+		"user" ],
+	"name" : "TreasuryRoomClassTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

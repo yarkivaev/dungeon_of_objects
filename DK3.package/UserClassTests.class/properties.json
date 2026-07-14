@@ -1,0 +1,16 @@
+{
+	"category" : "DK3-User-Tests",
+	"classinstvars" : [
+		"testSettersWork" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"user",
+		"rooms",
+		"creatures" ],
+	"name" : "UserClassTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

@@ -1,3 +1,3 @@
-as yet unclassified
+setters
 setCreatures: creatures
 	creaturesDict := creatures.
