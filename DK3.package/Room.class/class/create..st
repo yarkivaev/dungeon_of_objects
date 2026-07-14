@@ -2,8 +2,11 @@ as yet unclassified
 create: user
 	| room |
 	room := self new.
-	user getGold >= (room price) ifTrue: [
-		user goldDiscard: (room price).
-		^ room.
+	user getGold >= room getPrice ifTrue: [
+		room setUser: user.
+		user goldDiscard: room getPrice.
+		
+		^room.
 	].
+
 	

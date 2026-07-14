@@ -1,0 +1,14 @@
+{
+	"category" : "DK3-Rooms",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"roomsDict" ],
+	"name" : "Rooms",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
