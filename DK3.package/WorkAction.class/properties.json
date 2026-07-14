@@ -6,15 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"name",
-		"health",
-		"attack",
-		"hunger",
-		"level",
-		"position",
-		"team" ],
-	"name" : "Creature",
+		"workType" ],
+	"name" : "WorkAction",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "GameAction",
 	"type" : "normal" }

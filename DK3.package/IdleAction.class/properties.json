@@ -6,15 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"name",
-		"health",
-		"attack",
-		"hunger",
-		"level",
-		"position",
-		"team" ],
-	"name" : "Creature",
+		 ],
+	"name" : "IdleAction",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "GameAction",
 	"type" : "normal" }
