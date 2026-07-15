@@ -2,4 +2,16 @@
 	"class" : {
 		 },
 	"instance" : {
-		 } }
+		"addGold:" : "r 7/14/2026 15:18",
+		"addLog" : "r 7/15/2026 11:34",
+		"addLog:" : "r 7/15/2026 11:45",
+		"creatures" : "r 7/14/2026 15:15",
+		"creaturesLabel" : "r 7/14/2026 15:16",
+		"gold" : "r 7/14/2026 15:15",
+		"goldLabel" : "r 7/14/2026 15:16",
+		"initialize" : "r 7/15/2026 12:19",
+		"step" : "r 7/15/2026 12:19",
+		"stepTime" : "r 7/15/2026 12:17",
+		"updateCreaturesLabel" : "r 7/14/2026 15:19",
+		"updateGoldLabel" : "r 7/14/2026 15:18",
+		"updatePaydayLabel" : "r 7/15/2026 12:14" } }
