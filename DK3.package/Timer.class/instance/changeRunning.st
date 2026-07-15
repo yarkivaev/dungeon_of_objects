@@ -1,8 +1,12 @@
 helperMethods
 changeRunning
-	isRunning ifFalse: [
-		isRunning := true.	
-	].
+	| bool |
+
 	isRunning ifTrue: [
-		isRunning := false
-	]
+		bool := false.
+	].
+	isRunning ifFalse: [
+		bool := true.	
+	].
+
+	isRunning := bool.

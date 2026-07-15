@@ -2,7 +2,8 @@
 	"class" : {
 		"drawOn:" : "Andrew Fomin 7/15/2026 07:33" },
 	"instance" : {
-		"initialize" : "Andrew Fomin 7/15/2026 07:40",
-		"openOnCanvas" : "Andrew Fomin 7/15/2026 08:31",
+		"drawMorph" : "Andrew Fomin 7/15/2026 13:33",
+		"getMorph" : "Andrew Fomin 7/15/2026 13:28",
+		"initialize" : "Andrew Fomin 7/15/2026 15:44",
 		"setCanvas:" : "Andrew Fomin 7/15/2026 07:33",
-		"setForm:x:y:width:height:" : "Andrew Fomin 7/15/2026 07:35" } }
+		"setForm:x:y:width:height:" : "Andrew Fomin 7/15/2026 13:28" } }
