@@ -13,7 +13,9 @@
 		"roomsDict",
 		"creaturesDict",
 		"bestiaryDict",
-		"lairsCount" ],
+		"lairsCount",
+		"paydayDelay",
+		"paydayTimer" ],
 	"name" : "User",
 	"pools" : [
 		 ],

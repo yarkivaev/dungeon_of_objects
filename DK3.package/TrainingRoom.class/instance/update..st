@@ -1,3 +1,10 @@
 as yet unclassified
-update: delltaTime
+update: deltaTime
+	free ifFalse: [
+		timeCounter := timeCounter + deltaTime.
+		
+		timeCounter >= trainingTime ifTrue: 	[
+			
+		].
+	].
 	

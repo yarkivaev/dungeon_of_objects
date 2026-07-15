@@ -1,8 +1,7 @@
 as yet unclassified
 setForm: aForm x: posX y: posY width: aWidth height: aHeight
 	form := aForm.
-	x := posX.
-	y := posY.
+	position := posX @ posY.
 	width := aWidth.
 	height := aHeight.
 	

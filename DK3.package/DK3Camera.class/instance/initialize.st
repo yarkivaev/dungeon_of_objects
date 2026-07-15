@@ -1,4 +1,4 @@
-inizialization
+logic
 initialize
     "set window 640x480 and position set on 0x0"
     super initialize.

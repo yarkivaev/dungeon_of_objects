@@ -4,7 +4,7 @@
 	"instance" : {
 		"addCreature:id:" : "Andrew Fomin 7/15/2026 10:07",
 		"addRoom:id:" : "Andrew Fomin 7/15/2026 10:07",
-		"defeat" : "Andrew Fomin 7/13/2026 12:03",
+		"defeat" : "Andrew Fomin 7/15/2026 12:11",
 		"foodAdd:" : "Andrew Fomin 7/14/2026 11:57",
 		"foodDiscard:" : "Andrew Fomin 7/14/2026 11:57",
 		"getCreatures" : "Andrew Fomin 7/14/2026 11:56",
@@ -15,7 +15,7 @@
 		"getRooms" : "Andrew Fomin 7/15/2026 10:08",
 		"goldAdd:" : "Andrew Fomin 7/11/2026 13:59",
 		"goldDiscard:" : "Andrew Fomin 7/11/2026 14:00",
-		"initialize" : "Andrew Fomin 7/14/2026 11:48",
+		"initialize" : "Andrew Fomin 7/15/2026 11:54",
 		"lairAdd" : "Andrew Fomin 7/15/2026 10:10",
 		"lairRemove" : "Andrew Fomin 7/15/2026 10:11",
 		"maxGoldAdd:" : "Andrew Fomin 7/11/2026 20:29",
@@ -24,4 +24,4 @@
 		"removeRoom:" : "Andrew Fomin 7/15/2026 10:08",
 		"setCreatures:" : "Andrew Fomin 7/14/2026 10:32",
 		"setRooms:" : "Andrew Fomin 7/14/2026 10:32",
-		"update:" : "Andrew Fomin 7/11/2026 15:16" } }
+		"update:" : "Andrew Fomin 7/15/2026 12:13" } }
