@@ -4,6 +4,7 @@
 	"instance" : {
 		"isDiggable" : "vvk 7/11/2026 14:24",
 		"isPassable" : "vvk 7/11/2026 14:24",
+		"isWalkable" : "vvk 7/14/2026 13:08",
 		"replaceWith:" : "vvk 7/11/2026 15:59",
 		"setMap:x:y:" : "vvk 7/11/2026 16:27",
 		"x" : "vvk 7/11/2026 14:23",

@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testNoPath" : "vvk 7/15/2026 11:33",
+		"testPathAroundWall" : "vvk 7/15/2026 11:42",
+		"testPathFound" : "vvk 7/15/2026 11:37",
+		"testPathToClosed" : "vvk 7/15/2026 12:17",
+		"testStartEqualsEnd" : "vvk 7/15/2026 11:37" } }
