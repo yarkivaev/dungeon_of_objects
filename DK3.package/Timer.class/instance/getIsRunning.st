@@ -1,0 +1,3 @@
+getters
+getIsRunning
+	^isRunning.

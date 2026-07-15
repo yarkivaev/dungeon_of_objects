@@ -2,4 +2,4 @@ as yet unclassified
 initialize
 	super initialize.
 
-	objects := OrderedCollection.
+	objects := OrderedCollection new.
