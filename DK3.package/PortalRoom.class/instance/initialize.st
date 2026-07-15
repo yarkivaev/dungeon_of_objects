@@ -7,5 +7,7 @@ initialize
 	time := 120.
 	hp := 100.
 	size := 2.
+	delay := 90.
 	
+
 	

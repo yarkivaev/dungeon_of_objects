@@ -12,7 +12,8 @@
 		"foodAmount",
 		"roomsDict",
 		"creaturesDict",
-		"bestiaryDict" ],
+		"bestiaryDict",
+		"lairsCount" ],
 	"name" : "User",
 	"pools" : [
 		 ],

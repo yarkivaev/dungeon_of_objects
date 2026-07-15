@@ -8,4 +8,7 @@ initialize
 	time := 120.
 	hp := 200.
 	
-	maxCreatures := 2
+	maxCreatures := 2.
+	
+	trainingTime := 40.
+	free := true.

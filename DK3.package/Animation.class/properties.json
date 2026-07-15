@@ -1,0 +1,17 @@
+{
+	"category" : "DK3-Textures",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"frames",
+		"frameDuration",
+		"timeCounter",
+		"currentIndex" ],
+	"name" : "Animation",
+	"pools" : [
+		 ],
+	"super" : "Sprite",
+	"type" : "normal" }
