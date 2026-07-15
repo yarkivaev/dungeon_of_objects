@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "r 7/11/2026 15:23",
 	"instvars" : [
-		"label",
-		"action",
-		"targetLabel" ],
+		 ],
 	"name" : "GameButton",
 	"pools" : [
 		 ],
-	"super" : "GameWidget",
+	"super" : "BorderedMorph",
 	"type" : "normal" }

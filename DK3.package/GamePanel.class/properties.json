@@ -6,9 +6,20 @@
 		 ],
 	"commentStamp" : "r 7/11/2026 15:24",
 	"instvars" : [
-		 ],
+		"gold",
+		"creatures",
+		"goldLabel",
+		"healthLabel",
+		"creaturesLabel",
+		"paydayLabel",
+		"bottomBar",
+		"consoleLog",
+		"myButton",
+		"headerLeft",
+		"headerRight",
+		"paydayTime" ],
 	"name" : "GamePanel",
 	"pools" : [
 		 ],
-	"super" : "GameWidget",
+	"super" : "BorderedMorph",
 	"type" : "normal" }
