@@ -1,0 +1,15 @@
+{
+	"category" : "DK3-Render",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"entities",
+		"camera" ],
+	"name" : "DK3Render",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

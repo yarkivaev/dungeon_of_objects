@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"open" : "gosha 7/14/2026 15:17" },
+	"instance" : {
+		"drawOn:" : "gosha 7/14/2026 12:11",
+		"handlesMouseDown:" : "gosha 7/14/2026 15:07",
+		"handlesMouseMove:" : "gosha 7/14/2026 12:20",
+		"initialize" : "gosha 7/14/2026 15:15",
+		"mouseDown:" : "gosha 7/14/2026 15:07",
+		"mouseMove:" : "gosha 7/14/2026 15:07",
+		"step" : "gosha 7/14/2026 12:11",
+		"stepTime" : "gosha 7/14/2026 11:54" } }
