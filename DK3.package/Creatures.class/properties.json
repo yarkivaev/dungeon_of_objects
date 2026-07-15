@@ -1,0 +1,14 @@
+{
+	"category" : "DK3-Entities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"creaturesDict" ],
+	"name" : "Creatures",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

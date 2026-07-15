@@ -1,9 +1,13 @@
 {
 	"class" : {
-		"spawn:" : "Egor 7/11/2026 15:35" },
+		"globalId" : "Andrew Fomin 7/14/2026 12:12",
+		"initialize" : "Andrew Fomin 7/14/2026 12:07",
+		"spawn:player:" : "Andrew Fomin 7/14/2026 12:12" },
 	"instance" : {
 		"attack:" : "Egor 7/11/2026 14:02",
+		"decideAction:" : "Egor 7/14/2026 11:21",
 		"die" : "Egor 7/11/2026 14:06",
+		"distanceTo:" : "Egor 7/14/2026 11:17",
 		"gainLevel:" : "Egor 7/11/2026 15:12",
 		"hunger" : "Egor 7/11/2026 14:06",
 		"initialize" : "Egor 7/11/2026 15:19",

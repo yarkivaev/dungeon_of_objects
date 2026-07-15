@@ -10,7 +10,8 @@
 		"maxGold",
 		"paydayAmount",
 		"foodAmount",
-		"creaturesList",
+		"roomsDict",
+		"creaturesDict",
 		"bestiaryDict" ],
 	"name" : "User",
 	"pools" : [

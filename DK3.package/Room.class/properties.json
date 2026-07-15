@@ -9,9 +9,11 @@
 		"type",
 		"player",
 		"hp",
+		"maxHp",
 		"time",
 		"size",
-		"price" ],
+		"price",
+		"id" ],
 	"name" : "Room",
 	"pools" : [
 		 ],

@@ -1,0 +1,14 @@
+{
+	"category" : "DK3-Entities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"workType" ],
+	"name" : "WorkAction",
+	"pools" : [
+		 ],
+	"super" : "GameAction",
+	"type" : "normal" }

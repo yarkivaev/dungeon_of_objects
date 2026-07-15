@@ -1,0 +1,14 @@
+{
+	"category" : "DK3-Entities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"patient" ],
+	"name" : "HealAction",
+	"pools" : [
+		 ],
+	"super" : "GameAction",
+	"type" : "normal" }

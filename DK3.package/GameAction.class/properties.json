@@ -1,0 +1,14 @@
+{
+	"category" : "DK3-Entities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"actor" ],
+	"name" : "GameAction",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

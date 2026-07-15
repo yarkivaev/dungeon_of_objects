@@ -1,0 +1,3 @@
+getters
+getRooms
+	^roomsDict.

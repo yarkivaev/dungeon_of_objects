@@ -1,0 +1,3 @@
+getters
+getMaxGold
+	^maxGold.

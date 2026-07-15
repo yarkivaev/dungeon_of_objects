@@ -1,0 +1,14 @@
+{
+	"category" : "DK3-Timer-Tests",
+	"classinstvars" : [
+		"testDeltaTimeCalculating" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"timer" ],
+	"name" : "TimerClassTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

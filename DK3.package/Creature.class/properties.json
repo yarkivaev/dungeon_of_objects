@@ -1,17 +1,20 @@
 {
 	"category" : "DK3-Entities",
 	"classinstvars" : [
-		 ],
+		"globalId" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
 		"name",
 		"health",
+		"player",
 		"attack",
 		"hunger",
 		"level",
-		"position" ],
+		"position",
+		"id",
+		"team" ],
 	"name" : "Creature",
 	"pools" : [
 		 ],
