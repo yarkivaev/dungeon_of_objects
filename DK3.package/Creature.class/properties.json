@@ -1,14 +1,14 @@
 {
 	"category" : "DK3-Entities",
 	"classinstvars" : [
-		"globalId" ],
+		 "globalId" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"player",
 		"name",
 		"health",
-		"player",
 		"attack",
 		"hunger",
 		"level",

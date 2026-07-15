@@ -1,11 +1,16 @@
 as yet unclassified
 decideAction: worldCreatures
 
-	| enemies |
-	enemies := worldCreatures select: [ :each | (each team ~= self team) and: [ each health > 0 ] ].
+	| enemies sortedEnemies nearestEnemy |
+	enemies := worldCreatures select: [ :each | 
+		(each team ~= self team) and: [ each ~= self and: [ each health > 0 ] ] ].
 	
 	enemies isEmpty ifFalse: [ 
-		^ AttackAction actor: self target: enemies first
+		sortedEnemies := enemies sorted: [ :a :b | 
+			(self distanceTo: a) < (self distanceTo: b) ].
+		
+		nearestEnemy := sortedEnemies first.
+		^ AttackAction actor: self target: nearestEnemy
 	].
 
 	^ IdleAction actor: self

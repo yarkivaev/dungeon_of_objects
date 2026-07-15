@@ -1,11 +1,17 @@
 as yet unclassified
 decideAction: worldCreatures
 
-	| enemies |
-	enemies := worldCreatures select: [ :each | (each team ~= self team) and: [ each health > 0 ] ].
+	| visibleEnemies sortedEnemies |
+	visibleEnemies := worldCreatures select: [ :each | 
+		(each isKindOf: Fighter) 
+			and: [ (each team ~= self team) 
+			and: [ (each health > 0)
+			and: [ (self distanceTo: each) <= 5 ] ] ] ].
 	
-	enemies isEmpty ifFalse: [ 
-		^ FleeAction actor: self 
+	visibleEnemies isEmpty ifFalse: [ 
+		sortedEnemies := visibleEnemies sorted: [ :a :b | 
+			(self distanceTo: a) < (self distanceTo: b) ].
+		^ FleeAction actor: self
 	].
 
 	^ WorkAction actor: self workType: self findWork
