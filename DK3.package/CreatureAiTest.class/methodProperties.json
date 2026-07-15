@@ -3,5 +3,6 @@
 		 },
 	"instance" : {
 		"testFighterNearestTarget" : "Egor 7/15/2026 11:13",
+		"testFighterTrainingLogic" : "Egor 7/15/2026 15:57",
 		"testHealerPriorities" : "Egor 7/15/2026 13:14",
 		"testWorkerVisionAndBehavior" : "Egor 7/15/2026 11:39" } }

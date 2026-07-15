@@ -1,14 +1,15 @@
 {
-	"category" : "DK3-Entities-Tests",
+	"category" : "DK3-Entities",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"currentAction" ],
-	"name" : "CreatureAiTest",
+		"room",
+		"ticksLeft" ],
+	"name" : "TrainAction",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "GameAction",
 	"type" : "normal" }
