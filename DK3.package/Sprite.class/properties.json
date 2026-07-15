@@ -1,20 +1,18 @@
 {
-	"category" : "DK3-Rooms",
+	"category" : "DK3-Textures",
 	"classinstvars" : [
-		"globalId" ],
+		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"type",
-		"player",
-		"hp",
-		"maxHp",
-		"time",
-		"size",
-		"price",
-		"id" ],
-	"name" : "Room",
+		"canvas",
+		"x",
+		"y",
+		"width",
+		"height",
+		"form" ],
+	"name" : "Sprite",
 	"pools" : [
 		 ],
 	"super" : "Object",

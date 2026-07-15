@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"trainingTime",
+		"trainingDelay",
+		"free" ],
 	"name" : "CombatPitRoom",
 	"pools" : [
 		 ],

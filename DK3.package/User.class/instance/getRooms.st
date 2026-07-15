@@ -1,3 +1,3 @@
 getters
 getRooms
-	^roomsDict.
+	^roomsDict

@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"trainingTime",
+		"free",
+		"timeCounter" ],
 	"name" : "TrainingRoom",
 	"pools" : [
 		 ],

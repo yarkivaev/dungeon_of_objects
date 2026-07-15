@@ -10,3 +10,6 @@ initialize
 		
 	maxCreatures := 1.
 	
+	player lairAdd.
+	
+	
