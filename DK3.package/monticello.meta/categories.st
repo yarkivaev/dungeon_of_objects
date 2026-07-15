@@ -4,6 +4,8 @@ SystemOrganization addCategory: #'DK3-Game'!
 SystemOrganization addCategory: #'DK3-Game-Tests'!
 SystemOrganization addCategory: #'DK3-GameMap'!
 SystemOrganization addCategory: #'DK3-GameMap-Tests'!
+SystemOrganization addCategory: #'DK3-Render'!
+SystemOrganization addCategory: #'DK3-Render_Tests'!
 SystemOrganization addCategory: #'DK3-Rooms'!
 SystemOrganization addCategory: #'DK3-Rooms-Tests'!
 SystemOrganization addCategory: #'DK3-Textures'!

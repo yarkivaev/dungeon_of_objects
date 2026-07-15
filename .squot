@@ -1,3 +1,5 @@
 OrderedDictionary {
+	'Game-UI.package' : #SquotCypressCodeSerializer,
+	'Game field.package' : #SquotCypressCodeSerializer,
 	'DK3.package' : #SquotCypressCodeSerializer
 }
