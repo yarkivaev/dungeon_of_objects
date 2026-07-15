@@ -8,8 +8,8 @@ renderSceneOn: aCanvas inBounds: displayBounds
 	center := displayBounds center.
 
 
-	roomSize := 200. 
-	step := 50.    
+	roomSize := 800. 
+	step := 16.    
 
 	(roomSize negated) to: roomSize by: step do: [ :x |
 

@@ -2,4 +2,6 @@ drawing
 drawOn: aCanvas
 	super drawOn: aCanvas.
 	
-	gameRender renderSceneOn: aCanvas inBounds: self innerBounds.
+	aCanvas clipBy: self innerBounds during: [ :clippedCanvas |
+		gameRender renderSceneOn: clippedCanvas inBounds: self innerBounds.
+	].
