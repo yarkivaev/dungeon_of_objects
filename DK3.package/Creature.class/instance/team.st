@@ -1,3 +1,3 @@
 as yet unclassified
-do
-	^ self
+team
+	^ team
