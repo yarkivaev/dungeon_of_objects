@@ -5,7 +5,6 @@ update: deltaTime
 	player getLairs < player getRooms size ifTrue: [
 		timeCounter >= delay ifTrue: [
 			timeCounter := 0.
-			Creature new.
 		].
 	].
 
