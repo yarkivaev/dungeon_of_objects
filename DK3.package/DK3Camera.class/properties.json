@@ -1,0 +1,17 @@
+{
+	"category" : "DK3-Render",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"position",
+		"zoom",
+		"target",
+		"angle" ],
+	"name" : "DK3Camera",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
