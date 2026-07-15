@@ -4,11 +4,11 @@
 		"globalId" : "Andrew Fomin 7/13/2026 11:42",
 		"initialize" : "Andrew Fomin 7/13/2026 11:40" },
 	"instance" : {
-		"destroy:" : "Andrew Fomin 7/13/2026 12:00",
+		"destroy:" : "Andrew Fomin 7/15/2026 17:28",
 		"getHp" : "Andrew Fomin 7/14/2026 10:23",
 		"getId" : "Andrew Fomin 7/13/2026 12:01",
 		"getMaxHp" : "Andrew Fomin 7/14/2026 10:23",
-		"getPlayer" : " 7/14/2026 15:16:16",
+		"getPlayer" : "7/14/2026 15:16:16",
 		"getPrice" : "Andrew Fomin 7/14/2026 10:20",
 		"getSize" : "Andrew Fomin 7/14/2026 10:22",
 		"getType" : "Andrew Fomin 7/14/2026 10:43",

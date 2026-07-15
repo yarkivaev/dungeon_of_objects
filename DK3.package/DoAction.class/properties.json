@@ -1,22 +1,14 @@
 {
 	"category" : "DK3-Entities",
 	"classinstvars" : [
-		"globalId",
-		"creatureNamesList" ],
+		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"name",
-		"health",
-		"player",
-		"attack",
-		"hunger",
-		"level",
-		"position",
-		"id",
-		"team" ],
-	"name" : "Creature",
+		"actionDelay",
+		"timeCounter" ],
+	"name" : "DoAction",
 	"pools" : [
 		 ],
 	"super" : "Object",
