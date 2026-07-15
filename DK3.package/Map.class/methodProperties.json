@@ -4,5 +4,7 @@
 	"instance" : {
 		"atX:y:" : "vvk 7/11/2026 14:21",
 		"atX:y:put:" : "vvk 7/11/2026 14:22",
+		"findPathFrom:to:" : "vvk 7/14/2026 14:53",
 		"initializeWidth:height:" : "vvk 7/11/2026 16:47",
-		"isValidX:y:" : "vvk 7/11/2026 14:23" } }
+		"isValidX:y:" : "vvk 7/11/2026 14:23",
+		"isWalkableAtX:y:" : "vvk 7/14/2026 13:20" } }

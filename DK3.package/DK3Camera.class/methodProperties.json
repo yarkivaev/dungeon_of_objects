@@ -4,11 +4,12 @@
 	"instance" : {
 		"angle" : "gosha 7/14/2026 12:18",
 		"angle:" : "gosha 7/14/2026 12:19",
+		"clampPositionInExtent:" : "gosha 7/15/2026 12:17",
 		"follow:" : "gosha 7/14/2026 11:33",
 		"initialize" : "gosha 7/14/2026 12:18",
 		"position" : "gosha 7/14/2026 10:40",
 		"position:" : "gosha 7/14/2026 11:31",
-		"transformToScreen:windowCenter:" : "gosha 7/14/2026 12:20",
+		"transformToScreen:windowCenter:" : "gosha 7/15/2026 11:18",
 		"update:" : "gosha 7/14/2026 12:10",
 		"zoom" : "gosha 7/14/2026 11:21",
 		"zoom:" : "gosha 7/14/2026 11:21" } }
