@@ -16,3 +16,5 @@ SystemOrganization addCategory: #'DK3-UI'!
 SystemOrganization addCategory: #'DK3-UI-Tests'!
 SystemOrganization addCategory: #'DK3-User'!
 SystemOrganization addCategory: #'DK3-User-Tests'!
+SystemOrganization addCategory: #'DK3-Sound-Tests'!
+SystemOrganization addCategory: #'DK3-Sound'!
