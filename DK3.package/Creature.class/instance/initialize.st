@@ -7,3 +7,5 @@ initialize
 	hunger := 0.
 	level := 1.
 	position := 0@0.
+	
+	id := self class globalId.

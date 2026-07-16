@@ -1,3 +1,3 @@
 as yet unclassified
 drawMorph
-	morph openInWorld.
+	canvas addMorph: morph.

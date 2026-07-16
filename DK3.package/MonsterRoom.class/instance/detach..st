@@ -1,3 +1,3 @@
 as yet unclassified
-detach: creature
-	creaturesList remove: creature.
+detach: id
+	creaturesDict removeKey: id.

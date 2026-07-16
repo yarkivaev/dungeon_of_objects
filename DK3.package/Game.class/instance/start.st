@@ -6,3 +6,8 @@ start
 	timer := Timer new.
 	timer setWorld: world setGame: self.
 	timer start.
+	
+	creatures := Creatures new.
+	
+	world addObject: rooms.
+	world addObject: creatures.
