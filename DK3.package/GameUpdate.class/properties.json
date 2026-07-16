@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"objects" ],
+		"objects",
+		"game" ],
 	"name" : "GameUpdate",
 	"pools" : [
 		 ],

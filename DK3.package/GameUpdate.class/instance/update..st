@@ -1,7 +1,6 @@
 as yet unclassified
 update: deltaTime
-	objects := ObjectInterface getObjects.
-
 	objects do: [ :object | 
-		object update: deltaTime.	
+		(object respondsTo: #game:) ifTrue: [ object game: game ].
+		object update: deltaTime world: objects.
 	]

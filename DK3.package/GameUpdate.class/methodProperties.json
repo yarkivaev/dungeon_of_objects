@@ -2,4 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"update:" : "Andrew Fomin 7/16/2026 11:05" } }
+		"addObject:" : "Andrew Fomin 7/15/2026 14:05",
+		"game:" : "Egor 7/16/2026 14:56",
+		"initialize" : "Andrew Fomin 7/15/2026 14:03",
+		"update:" : "Egor 7/16/2026 15:02" } }

@@ -17,7 +17,8 @@
 		"position",
 		"id",
 		"currentRoom",
-		"currentAction" ],
+		"currentAction",
+		"game" ],
 	"name" : "Creature",
 	"pools" : [
 		 ],

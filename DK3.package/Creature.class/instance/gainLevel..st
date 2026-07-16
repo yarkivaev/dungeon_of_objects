@@ -12,5 +12,14 @@ gainLevel: anInteger
 		attack := attack + (levelsGained * 5).
 		health := health + (levelsGained * 10).
 		
-		Transcript show: (self class name asString, ' gained ', levelsGained asString, ' levels. Attack +', (levelsGained * 5) asString, ', HP +', (levelsGained * 10) asString); cr
+		self game ifNotNil: [
+			self game addEvent: (Dictionary new
+				at: #type put: #levelUp;
+				at: #tick put: self game getTimer;
+				at: #position put: (self position ifNotNil: [ self position copy ] ifNil: [ 0@0 ]);
+				at: #actor put: self;
+				at: #oldLevel put: oldLevel;
+				at: #newLevel put: level;
+				yourself)
+		]
 	]

@@ -1,5 +1,5 @@
 as yet unclassified
-die
+dieFrom: anAttacker
 	health := 0.
 	
 	self game ifNotNil: [
@@ -8,6 +8,6 @@ die
 			at: #tick put: self game getTimer;
 			at: #position put: (self position ifNotNil: [ self position copy ] ifNil: [ 0@0 ]);
 			at: #victim put: self;
-			at: #killer put: #unknown;
+			at: #killer put: (anAttacker ifNil: [ #unknown ]);
 			yourself)
 	]
