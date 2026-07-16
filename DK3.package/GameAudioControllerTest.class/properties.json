@@ -1,0 +1,14 @@
+{
+	"category" : "DK3-Sound-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"audioController" ],
+	"name" : "GameAudioControllerTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

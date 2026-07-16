@@ -1,0 +1,15 @@
+{
+	"category" : "DK3-Sound",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"sounds",
+		"masterVolume" ],
+	"name" : "GameAudioController",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
