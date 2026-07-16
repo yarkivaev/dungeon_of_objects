@@ -3,7 +3,7 @@ decideAction: worldCreatures
 
 	| enemies sortedEnemies nearestEnemy trainingRoom |
 	enemies := worldCreatures select: [ :each | 
-		(each team ~= self team) and: [ each ~= self and: [ each health > 0 ] ] ].
+		(each getPlayer ~= self getPlayer) and: [ each ~= self and: [ each health > 0 ] ] ].
 	
 	enemies isEmpty ifFalse: [ 
 		currentAction := nil.

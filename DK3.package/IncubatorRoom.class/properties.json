@@ -6,7 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"checkDelay" ],
+		"checkDelay",
+		"timeCounter",
+		"gold",
+		"foodPrice",
+		"foodPerPayday" ],
 	"name" : "IncubatorRoom",
 	"pools" : [
 		 ],

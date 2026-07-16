@@ -1,2 +1,3 @@
 as yet unclassified
-update: deltaTime
+getPlayer
+	^player.
