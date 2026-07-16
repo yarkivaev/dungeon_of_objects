@@ -8,7 +8,8 @@
 	"instvars" : [
 		"isRunning",
 		"world",
-		"timer" ],
+		"timer",
+		"events" ],
 	"name" : "Game",
 	"pools" : [
 		 ],

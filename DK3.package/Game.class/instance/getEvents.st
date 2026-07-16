@@ -1,0 +1,3 @@
+getters
+getEvents
+	^ events copy
