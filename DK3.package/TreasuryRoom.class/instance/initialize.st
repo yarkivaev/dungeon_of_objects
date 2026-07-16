@@ -7,5 +7,3 @@ initialize
 	time := 60.
 	hp := 150.
 	size := 2.
-	
-	player goldAdd: 1500.

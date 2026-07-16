@@ -1,5 +1,7 @@
 {
 	"class" : {
-		 },
+		"actor:workType:" : "Egor 7/15/2026 10:43" },
 	"instance" : {
-		"do" : "Egor 7/14/2026 11:07" } }
+		"do" : "Egor 7/14/2026 11:07",
+		"workType" : "Egor 7/15/2026 11:43",
+		"workType:" : "Egor 7/15/2026 10:46" } }

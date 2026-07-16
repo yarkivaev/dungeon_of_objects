@@ -1,0 +1,15 @@
+{
+	"category" : "DK3-Entities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"actionDelay",
+		"timeCounter" ],
+	"name" : "DoAction",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,3 +1,3 @@
 as yet unclassified
 distanceTo: aCreature
-	^ self position distanceTo: aCreature position
+	^ self position dist: aCreature position
