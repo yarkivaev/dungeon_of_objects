@@ -2,7 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testFighterNearestTarget" : "Andrew Fomin 7/16/2026 10:52",
-		"testFighterTrainingLogic" : "Andrew Fomin 7/16/2026 11:23",
-		"testHealerPriorities" : "Andrew Fomin 7/16/2026 11:26",
-		"testWorkerVisionAndBehavior" : "Andrew Fomin 7/16/2026 11:31" } }
+		"testFighterNearestTarget" : "Egor 7/15/2026 11:13",
+		"testHealerPriorities" : "Egor 7/15/2026 13:14",
+		"testWorkerVisionAndBehavior" : "Egor 7/15/2026 11:39" } }

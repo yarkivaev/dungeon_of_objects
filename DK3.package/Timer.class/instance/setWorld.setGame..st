@@ -1,5 +1,9 @@
 as yet unclassified
 setWorld: aWorld setGame: aGame
-	world := aWorld.
+	currentTime := 0.
+	lastTime := Time millisecondClockValue.
+	dt := 0.
+	isRunning := true.
+	game := aWorld.
 	game := aGame.
 	

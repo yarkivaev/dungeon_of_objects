@@ -11,8 +11,7 @@
 		"y",
 		"width",
 		"height",
-		"form",
-		"morph" ],
+		"form" ],
 	"name" : "Sprite",
 	"pools" : [
 		 ],

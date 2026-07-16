@@ -4,7 +4,7 @@ decideAction: worldCreatures
 	| visibleEnemies sortedEnemies |
 	visibleEnemies := worldCreatures select: [ :each | 
 		(each isKindOf: Fighter) 
-			and: [ (each getPlayer ~= self getPlayer) 
+			and: [ (each team ~= self team) 
 			and: [ (each health > 0)
 			and: [ (self distanceTo: each) <= 5 ] ] ] ].
 	

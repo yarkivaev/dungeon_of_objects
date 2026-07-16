@@ -1,3 +1,3 @@
 setters
 addCreature: creature id: anId
-	creaturesDict add: creature id: anId.
+	creaturesDict at: anId put: creature.

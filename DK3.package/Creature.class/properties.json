@@ -1,9 +1,7 @@
 {
 	"category" : "DK3-Entities",
 	"classinstvars" : [
-		"globalId",
-		"creatureNamesList",
-		"creaturesDict" ],
+		"globalId" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -16,8 +14,7 @@
 		"level",
 		"position",
 		"id",
-		"currentRoom",
-		"currentAction" ],
+		"team" ],
 	"name" : "Creature",
 	"pools" : [
 		 ],

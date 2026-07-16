@@ -2,11 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"calculateDeltaTime" : "Andrew Fomin 7/15/2026 15:32",
-		"changeRunning" : "Andrew Fomin 7/15/2026 14:19",
-		"getIsRunning" : "Andrew Fomin 7/15/2026 14:13",
-		"initialize" : "Andrew Fomin 7/15/2026 15:00",
-		"setWorld:setGame:" : "Andrew Fomin 7/15/2026 16:53",
-		"start" : "Andrew Fomin 7/15/2026 16:48",
-		"step" : "Andrew Fomin 7/15/2026 16:47",
+		"calculateDeltaTime" : "Andrew Fomin 7/11/2026 15:41",
+		"changeRunning" : "Andrew Fomin 7/11/2026 16:40",
+		"setWorld:setGame:" : "Andrew Fomin 7/11/2026 16:36",
+		"start" : "Andrew Fomin 7/11/2026 16:39",
+		"step" : "Andrew Fomin 7/11/2026 15:39",
 		"stop" : "Andrew Fomin 7/11/2026 16:29" } }

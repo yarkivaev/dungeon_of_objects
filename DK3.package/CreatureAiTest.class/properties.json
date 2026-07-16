@@ -1,12 +1,12 @@
 {
 	"category" : "DK3-Entities-Tests",
 	"classinstvars" : [
-		"testFighterNearestTarget" ],
+		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"currentAction" ],
+		 ],
 	"name" : "CreatureAiTest",
 	"pools" : [
 		 ],
