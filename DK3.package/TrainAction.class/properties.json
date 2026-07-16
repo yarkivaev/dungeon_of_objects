@@ -1,0 +1,15 @@
+{
+	"category" : "DK3-Entities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"room",
+		"ticksLeft" ],
+	"name" : "TrainAction",
+	"pools" : [
+		 ],
+	"super" : "GameAction",
+	"type" : "normal" }

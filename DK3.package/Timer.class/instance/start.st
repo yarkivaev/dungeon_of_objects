@@ -3,6 +3,7 @@ start
 	[
 		[ isRunning ] whileTrue: [
 			self step.
-	      	(Delay forMilliseconds: dt) wait.
+			world update: dt.
+	      	(Delay forSeconds: 0.016) wait.
 		].
-	] forkAt: Processor userBackgroundPriority.
+	] fork.

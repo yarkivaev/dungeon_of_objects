@@ -1,20 +1,19 @@
 as yet unclassified
 testHealerPriorities
 
-	| dragon monk woundedFriend woundedEnemy world action |
+	| dragon monk woundedFriend woundedEnemy world action player1 player2 |
 	
-	dragon := Dragon newAlly.
-	dragon position: (0@0).
+	player1 := User new.
+	player2 := User new.
 	
-	monk := Monk newAlly.
-	monk position: (3@3).
+	dragon := Dragon spawn: (0@0) player: player1.
+		
+	monk := Monk spawn: (3@3) player: player1.
 	
-	woundedFriend := Digger newAlly.
-	woundedFriend position: (1@1).
+	woundedFriend := Digger spawn: (1@1) player: player1.
 	woundedFriend takeDamage: 40. 
 	
-	woundedEnemy := Goblin newEnemy.
-	woundedEnemy position: (2@2).
+	woundedEnemy := Goblin spawn: (2@2) player: player2.
 	woundedEnemy takeDamage: 50. 
 	
 	world := OrderedCollection with: dragon with: monk with: woundedFriend with: woundedEnemy.

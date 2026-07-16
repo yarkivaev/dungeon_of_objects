@@ -1,11 +1,28 @@
 as yet unclassified
-create: user
+create: aPlayer
 	| room |
 	room := self new.
-	user getGold >= room getPrice ifTrue: [
-		user goldDiscard: room getPrice.
-		user maxGoldAdd: 1500.
+	
+	globalId ifNil: [
+		globalId := 0.	
+	].
+
+	roomsDict ifNil: [
+		roomsDict := Rooms new.	
+	].
+	
+	aPlayer getGold >= room getPrice ifTrue: [
+		room setUser: aPlayer.
+		aPlayer goldDiscard: room getPrice.
 		
-		room setUser: user.
+		globalId := globalId + 1.
+		
+		roomsDict add: room id: globalId.
+		aPlayer addRoom: room id: globalId.
+		
+		aPlayer maxGoldAdd: 1500.
+		
 		^room.
 	].
+
+	
