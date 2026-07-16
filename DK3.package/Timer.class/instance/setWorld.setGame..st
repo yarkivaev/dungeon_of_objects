@@ -1,5 +1,5 @@
 as yet unclassified
 setWorld: aWorld setGame: aGame
-	game := aWorld.
+	world := aWorld.
 	game := aGame.
 	

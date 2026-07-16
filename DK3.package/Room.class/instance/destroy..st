@@ -1,3 +1,3 @@
 actions
 destroy: id
-	player discardRoom: id
+	player removeRoom: id

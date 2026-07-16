@@ -1,3 +1,3 @@
 setters
 addRoom: room id: anId
-	roomsDict at: anId put: room.
+	roomsDict add: room id: anId.

@@ -1,15 +1,15 @@
 {
-	"category" : "DK3-Rooms",
+	"category" : "DK3-Game",
 	"classinstvars" : [
-		 ],
+		"objects",
+		"world" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"maxCreatures",
-		"creaturesDict" ],
-	"name" : "MonsterRoom",
+		 ],
+	"name" : "ObjectInterface",
 	"pools" : [
 		 ],
-	"super" : "Room",
+	"super" : "Object",
 	"type" : "normal" }

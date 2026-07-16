@@ -1,7 +1,8 @@
 {
 	"category" : "DK3-Rooms",
 	"classinstvars" : [
-		"globalId" ],
+		"globalId",
+		"roomsDict" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",

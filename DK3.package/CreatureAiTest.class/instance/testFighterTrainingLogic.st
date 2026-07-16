@@ -1,12 +1,12 @@
 as yet unclassified
 testFighterTrainingLogic
 
-	| goblin room world action |
+	| goblin room world action player |
 	
 	room := TrainingRoom new.
+	player := User new.
 	
-	goblin := Goblin newEnemy.
-	goblin position: (0@0).
+	goblin := Goblin spawn: (0@0) player: player.
 	goblin currentRoom: room. 
 	
 	world := OrderedCollection with: goblin.

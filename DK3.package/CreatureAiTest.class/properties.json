@@ -1,7 +1,7 @@
 {
 	"category" : "DK3-Entities-Tests",
 	"classinstvars" : [
-		 ],
+		"testFighterNearestTarget" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",

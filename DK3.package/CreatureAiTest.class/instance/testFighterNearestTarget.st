@@ -1,16 +1,16 @@
 as yet unclassified
 testFighterNearestTarget
 
-	| goblin nearDigger farDigger world action |
+	| goblin nearDigger farDigger world action player1 player2 |
 	
-	goblin := Goblin newEnemy.
-	goblin position: (0@0).
+	player1 := User new.
+	player2 := User new.
 	
-	nearDigger := Digger newAlly.
-	nearDigger position: (1@1).
+	goblin := Goblin spawn: (0@0) player: player2.
+		
+	nearDigger := Digger spawn: (0@0) player: player1.
 	
-	farDigger := Digger newAlly.
-	farDigger position: (5@5).
+	farDigger := Digger spawn: (5@5) player: player1.
 	
 	world := OrderedCollection with: goblin with: nearDigger with: farDigger.
 	

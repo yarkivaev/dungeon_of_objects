@@ -2,6 +2,8 @@ as yet unclassified
 initialize
 	super initialize.
 	
+	ObjectInterface addObject: self.
+	
 	type := ''.
 	
 	hp := 0.
