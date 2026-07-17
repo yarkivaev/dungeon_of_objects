@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"withCamera:" : "GK97 7/17/2026 00:05" },
+	"instance" : {
+		"drawButtonOn:" : "GK97 7/17/2026 10:23",
+		"drawHealthBarOn:" : "GK97 7/17/2026 00:07",
+		"drawHealthBarOn:at:width:" : "GK97 7/17/2026 10:22",
+		"drawOn:" : "GK97 7/17/2026 10:22",
+		"drawPanelOn:" : "GK97 7/17/2026 10:22",
+		"drawTextsOn:" : "GK97 7/17/2026 10:23",
+		"initializeWithCamera:" : "GK97 7/17/2026 10:22",
+		"processPacket:" : "GK97 7/17/2026 10:23",
+		"shouldHandlePacket:" : "GK97 7/17/2026 10:23" } }

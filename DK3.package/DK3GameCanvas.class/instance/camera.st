@@ -1,0 +1,3 @@
+accesing
+camera
+    ^ camera
