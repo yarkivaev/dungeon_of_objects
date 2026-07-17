@@ -1,6 +1,8 @@
-as yet unclassified
+updating
 update: deltaTime
-	objects do: [ :object | 
-		(object respondsTo: #game:) ifTrue: [ object game: game ].
-		object update: deltaTime world: objects.
-	]
+    objects ifNil: [ ^ self ].
+    
+    objects do: [ :object |
+        (object respondsTo: #update:) 
+            ifTrue: [ object update: deltaTime ].
+    ].

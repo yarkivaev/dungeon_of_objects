@@ -1,5 +1,5 @@
 initialize-release
 initialize
-	super initialize.
-	events := OrderedCollection new.
-	isRunning := false.
+    super initialize.
+    isRunning := false.
+    renderer := nil.
