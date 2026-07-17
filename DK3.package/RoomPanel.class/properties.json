@@ -1,0 +1,21 @@
+{
+	"category" : "DK3-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"roomsPlacement",
+		"buttonsCollection",
+		"button",
+		"xOffset",
+		"yOffset",
+		"roomPath",
+		"icon",
+		"roomShadow" ],
+	"name" : "RoomPanel",
+	"pools" : [
+		 ],
+	"super" : "BorderedMorph",
+	"type" : "normal" }

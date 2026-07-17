@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"audioController" ],
+		"controller" ],
 	"name" : "GameAudioControllerTest",
 	"pools" : [
 		 ],
