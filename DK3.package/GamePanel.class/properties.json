@@ -24,7 +24,10 @@
 		"creatureList",
 		"lastPaydayTime",
 		"goldProgressBar",
-		"goldProgressFill" ],
+		"goldProgressFill",
+		"createRoomButton",
+		"roomPanel",
+		"player" ],
 	"name" : "GamePanel",
 	"pools" : [
 		 ],
