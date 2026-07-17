@@ -1,0 +1,18 @@
+{
+	"category" : "DK3-Game",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"camera",
+		"layers",
+		"startDragPoint",
+		"startCameraPosition",
+		"lastTickTime" ],
+	"name" : "DK3GameCanvas",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

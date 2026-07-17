@@ -1,0 +1,14 @@
+{
+	"category" : "DK3-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"uiBounds" ],
+	"name" : "DK3UILayer",
+	"pools" : [
+		 ],
+	"super" : "DK3AbstractLayer",
+	"type" : "normal" }

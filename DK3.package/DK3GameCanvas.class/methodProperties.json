@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"camera" : "GK97 7/16/2026 23:38",
+		"drawOn:" : "GK97 7/16/2026 23:38",
+		"handlesMouseDown:" : "GK97 7/16/2026 23:39",
+		"handlesMouseMove:" : "GK97 7/16/2026 23:39",
+		"handlesMouseWheel:" : "GK97 7/16/2026 23:39",
+		"initialize" : "GK97 7/16/2026 23:37",
+		"linkLayers" : "GK97 7/16/2026 23:42",
+		"mouseDown:" : "GK97 7/16/2026 23:39",
+		"mouseMove:" : "GK97 7/16/2026 23:39",
+		"mouseWheel:" : "GK97 7/16/2026 23:40",
+		"openInWindow" : "GK97 7/16/2026 23:47",
+		"processInputFrame:" : "GK97 7/16/2026 23:42",
+		"step" : "GK97 7/16/2026 23:42",
+		"stepTime" : "GK97 7/16/2026 23:42" } }

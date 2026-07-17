@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"angle" : "GK97 7/16/2026 23:20",
+		"angle:" : "GK97 7/16/2026 23:20",
+		"clampPositionInExtent:" : "GK97 7/16/2026 23:21",
+		"follow:" : "GK97 7/16/2026 23:21",
+		"initialize" : "GK97 7/16/2026 23:19",
+		"position" : "GK97 7/16/2026 23:19",
+		"position:" : "GK97 7/16/2026 23:20",
+		"target" : "GK97 7/16/2026 23:20",
+		"target:" : "GK97 7/16/2026 23:20",
+		"transformToScreen:windowCenter:" : "GK97 7/16/2026 23:21",
+		"update:" : "GK97 7/16/2026 23:21",
+		"worldExtent" : "GK97 7/16/2026 23:20",
+		"worldExtent:" : "GK97 7/16/2026 23:20",
+		"zoom" : "GK97 7/16/2026 23:20",
+		"zoom:" : "GK97 7/16/2026 23:20" } }

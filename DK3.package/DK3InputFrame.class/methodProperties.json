@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"createFromEvent:" : "GK97 7/16/2026 23:17" },
+	"instance" : {
+		"consumed" : "GK97 7/16/2026 23:16",
+		"consumed:" : "GK97 7/16/2026 23:16",
+		"initialize" : "GK97 7/16/2026 23:15",
+		"isKeyPressed:" : "GK97 7/16/2026 23:17",
+		"isMousePressed" : "GK97 7/16/2026 23:17",
+		"keyboardState" : "GK97 7/16/2026 23:16",
+		"keyboardState:" : "GK97 7/16/2026 23:16",
+		"mouseButtons" : "GK97 7/16/2026 23:16",
+		"mouseButtons:" : "GK97 7/16/2026 23:16",
+		"mousePosition" : "GK97 7/16/2026 23:15",
+		"mousePosition:" : "GK97 7/16/2026 23:15",
+		"mouseScroll" : "GK97 7/16/2026 23:16",
+		"mouseScroll:" : "GK97 7/16/2026 23:16",
+		"printOn:" : "GK97 7/16/2026 23:17" } }

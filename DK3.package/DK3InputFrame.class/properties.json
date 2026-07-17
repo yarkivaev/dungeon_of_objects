@@ -1,0 +1,18 @@
+{
+	"category" : "DK3-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"mousePosition",
+		"mouseButtons",
+		"mouseScroll",
+		"keyboardState",
+		"consumed" ],
+	"name" : "DK3InputFrame",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
