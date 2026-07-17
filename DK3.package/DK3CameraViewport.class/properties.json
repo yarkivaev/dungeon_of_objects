@@ -1,0 +1,18 @@
+{
+	"category" : "DK3-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"position",
+		"zoom",
+		"target",
+		"angle",
+		"worldExtent" ],
+	"name" : "DK3CameraViewport",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,18 @@
+{
+	"category" : "DK3-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"camera",
+		"nextLayer",
+		"isActive",
+		"gameCanvas",
+		"layerName" ],
+	"name" : "DK3AbstractLayer",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

@@ -1,0 +1,15 @@
+{
+	"category" : "DK3-Render",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"tileSize",
+		"gridSize" ],
+	"name" : "DK3RenderLayer",
+	"pools" : [
+		 ],
+	"super" : "DK3AbstractLayer",
+	"type" : "normal" }

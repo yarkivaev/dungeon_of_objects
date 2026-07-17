@@ -1,0 +1,25 @@
+{
+	"class" : {
+		"withCamera:" : "GK97 7/16/2026 23:27" },
+	"instance" : {
+		"activate" : "GK97 7/16/2026 23:24",
+		"camera" : "GK97 7/16/2026 23:23",
+		"camera:" : "GK97 7/16/2026 23:23",
+		"canConsumePacket:" : "GK97 7/16/2026 23:26",
+		"deactivate" : "GK97 7/16/2026 23:24",
+		"forwardPacket:" : "GK97 7/16/2026 23:26",
+		"gameCanvas" : "GK97 7/16/2026 23:23",
+		"gameCanvas:" : "GK97 7/16/2026 23:24",
+		"handlePacket:" : "GK97 7/16/2026 23:26",
+		"initialize" : "GK97 7/16/2026 23:22",
+		"initializeWithCamera:" : "GK97 7/16/2026 23:23",
+		"isActive" : "GK97 7/16/2026 23:23",
+		"isActive:" : "GK97 7/16/2026 23:23",
+		"isActiveLayer" : "GK97 7/16/2026 23:24",
+		"layerName" : "GK97 7/16/2026 23:24",
+		"layerName:" : "GK97 7/16/2026 23:24",
+		"nextLayer" : "GK97 7/16/2026 23:23",
+		"nextLayer:" : "GK97 7/16/2026 23:23",
+		"printOn:" : "GK97 7/16/2026 23:27",
+		"processPacket:" : "GK97 7/16/2026 23:26",
+		"shouldHandlePacket:" : "GK97 7/16/2026 23:26" } }
