@@ -1,0 +1,14 @@
+{
+	"category" : "DK3-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "r 7/11/2026 15:24",
+	"instvars" : [
+		 ],
+	"name" : "GameLabel",
+	"pools" : [
+		 ],
+	"super" : "GameWidget",
+	"type" : "normal" }

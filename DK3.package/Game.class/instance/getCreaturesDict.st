@@ -1,3 +1,0 @@
-getters
-getCreaturesDict
-	^creaturesDict.

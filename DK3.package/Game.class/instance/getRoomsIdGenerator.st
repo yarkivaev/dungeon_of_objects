@@ -1,3 +1,0 @@
-getters
-getRoomsIdGenerator
-	^roomsIdGenerator.

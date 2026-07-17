@@ -1,16 +1,13 @@
 {
-	"category" : "DK3-Game",
+	"category" : "DK3-UI",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "r 7/11/2026 15:46",
 	"instvars" : [
-		"isRunning",
-		"world",
-		"timer",
-		"events" ],
-	"name" : "Game",
+		 ],
+	"name" : "GameWidget",
 	"pools" : [
 		 ],
 	"super" : "Object",

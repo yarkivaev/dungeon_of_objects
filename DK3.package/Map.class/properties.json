@@ -8,9 +8,7 @@
 	"instvars" : [
 		"grid",
 		"width",
-		"height",
-		"tilesRandomArray",
-		"currentTile" ],
+		"height" ],
 	"name" : "Map",
 	"pools" : [
 		 ],
