@@ -1,5 +1,5 @@
 as yet unclassified
-create: aPlayer
+create: aPlayer idGenerator: generator creaturedDict: dict
 	| room |
 	
 	globalId ifNil: [
