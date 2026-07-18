@@ -11,6 +11,7 @@ initialize
     layers := OrderedCollection new.
     layers add: (DK3RenderLayer withCamera: camera tileSize: 60 gridSize: 10 @ 10).
     layers add: (DK3UILayer withCamera: camera).
+    layers add: (RoomsLayer withCamera: camera).
     
     self linkLayers.
     lastTickTime := Time millisecondClockValue.

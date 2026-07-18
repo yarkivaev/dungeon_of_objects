@@ -18,5 +18,5 @@
 	"name" : "Room",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "ImageMorph",
 	"type" : "normal" }
