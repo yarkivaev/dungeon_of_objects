@@ -1,3 +1,3 @@
 as yet unclassified
 creatureCount
-    ^creatureCount 
+    ^player getCreatures getDict size.

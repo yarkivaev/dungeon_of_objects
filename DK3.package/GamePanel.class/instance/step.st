@@ -15,4 +15,11 @@ step
     minutes := (paydayTime / 60) floor.
     seconds := (paydayTime \\ 60) floor.
     paydayLabel contents: 'Payday: ', minutes asString, ':', 
-        (seconds < 10 ifTrue: ['0', seconds asString] ifFalse: [seconds asString]).
+    (seconds < 10 ifTrue: ['0', seconds asString] ifFalse: [seconds asString]).
+    foodLabel contents: 'Food: ' , player getFood asString.
+    
+    self updateCreaturesInfo.
+    self updateCreaturesLabel.
+    self updateGoldLabel.
+    self updatePaydayLabel.
+

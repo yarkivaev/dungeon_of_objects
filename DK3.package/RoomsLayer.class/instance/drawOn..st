@@ -1,3 +1,2 @@
 as yet unclassified
-stepTime
-    ^ 50.
+drawOn: aCanvas
