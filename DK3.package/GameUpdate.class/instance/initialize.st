@@ -1,5 +1,5 @@
-as yet unclassified
+inizialization
 initialize
-	super initialize.
-
-	objects := OrderedCollection new.
+    super initialize.
+    objects := OrderedCollection new.
+    game := nil.

@@ -10,7 +10,8 @@
 		"layers",
 		"startDragPoint",
 		"startCameraPosition",
-		"lastTickTime" ],
+		"lastTickTime",
+		"world" ],
 	"name" : "DK3GameCanvas",
 	"pools" : [
 		 ],
