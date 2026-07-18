@@ -1,14 +1,14 @@
 {
-	"category" : "DK3-UI",
+	"category" : "DK3-Rooms",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"image" ],
-	"name" : "RoomSpriteBuild",
+		 ],
+	"name" : "RoomsLayer",
 	"pools" : [
 		 ],
-	"super" : "SimpleButtonMorph",
+	"super" : "DK3AbstractLayer",
 	"type" : "normal" }

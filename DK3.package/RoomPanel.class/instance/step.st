@@ -1,3 +1,3 @@
 as yet unclassified
 step
-	self position: Sensor cursorPoint.
+	"self position: Sensor cursorPoint."
