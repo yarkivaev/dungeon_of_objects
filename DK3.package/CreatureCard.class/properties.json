@@ -6,10 +6,13 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"uiBounds",
-		"gamePanel" ],
-	"name" : "DK3UILayer",
+		"creatureName",
+		"level",
+		"mood",
+		"actionLabel",
+		"targetCreature" ],
+	"name" : "CreatureCard",
 	"pools" : [
 		 ],
-	"super" : "DK3AbstractLayer",
+	"super" : "BorderedMorph",
 	"type" : "normal" }

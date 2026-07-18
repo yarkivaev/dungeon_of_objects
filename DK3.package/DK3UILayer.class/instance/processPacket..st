@@ -1,9 +1,10 @@
 packet handling
 processPacket: anInputFrame
-    | clickPos buttonBounds |
+    | clickPos btnRect |
     clickPos := anInputFrame mousePosition.
-    buttonBounds := 150 @ 80 extent: 60 @ 30.
-    (buttonBounds containsPoint: clickPos) ifTrue: [
-        Transcript show: 'Button clicked!'; cr.
+    btnRect := (uiBounds origin + (15 @ 70)) extent: 100 @ 30.
+    
+    (btnRect containsPoint: clickPos) ifTrue: [
+        gamePanel createCreature.
+        self changed. 
     ].
-    Transcript show: 'UI click at: ', clickPos asString; cr.

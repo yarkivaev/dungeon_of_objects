@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"initializeWithCreature:" : "r 7/17/2026 12:06",
+		"mouseDown:" : "r 7/17/2026 12:28",
+		"targetCreature:" : "r 7/17/2026 13:12" } }

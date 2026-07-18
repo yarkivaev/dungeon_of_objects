@@ -3,11 +3,13 @@
 		"withCamera:" : "GK97 7/17/2026 00:05" },
 	"instance" : {
 		"drawButtonOn:" : "GK97 7/17/2026 10:23",
+		"drawGoldSectionOn:" : "r 7/17/2026 16:19",
 		"drawHealthBarOn:" : "GK97 7/17/2026 00:07",
 		"drawHealthBarOn:at:width:" : "GK97 7/17/2026 10:22",
-		"drawOn:" : "GK97 7/17/2026 10:22",
-		"drawPanelOn:" : "GK97 7/17/2026 10:22",
-		"drawTextsOn:" : "GK97 7/17/2026 10:23",
+		"drawOn:" : "r 7/17/2026 16:13",
+		"drawPanelOn:" : "r 7/17/2026 15:45",
+		"drawTextsOn:" : "r 7/17/2026 15:22",
+		"gamePanel:" : "r 7/17/2026 15:22",
 		"initializeWithCamera:" : "GK97 7/17/2026 10:22",
-		"processPacket:" : "GK97 7/17/2026 10:23",
+		"processPacket:" : "r 7/17/2026 16:13",
 		"shouldHandlePacket:" : "GK97 7/17/2026 10:23" } }
