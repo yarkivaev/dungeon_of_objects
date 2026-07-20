@@ -6,14 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"map",
-		"x",
-		"y",
-		"morph",
-		"width",
-		"height" ],
-	"name" : "Tile",
+		 ],
+	"name" : "NameOfSubclass",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "DK3AbstractLayer",
 	"type" : "normal" }

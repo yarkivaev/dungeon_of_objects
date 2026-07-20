@@ -1,7 +1,6 @@
 as yet unclassified
 drawOn: aCanvas
-	room drawOn: canvas.
+      offset := aCanvas clipRect origin.
 	
-	room changePosition: camera position zoom: camera zoom.
-	room changeSize: camera zoom position: camera position.
+	room drawOn: aCanvas.
 

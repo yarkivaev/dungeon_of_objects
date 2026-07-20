@@ -4,7 +4,7 @@
 		"getBuildableRoomsArray" : "Andrew Fomin 7/17/2026 12:18",
 		"globalId" : "Andrew Fomin 7/13/2026 11:42" },
 	"instance" : {
-		"changePosition:zoom:" : "Andrew Fomin 7/19/2026 18:03",
+		"changePosition:zoom:offset:" : "Andrew Fomin 7/20/2026 11:51",
 		"changeSize:position:" : "Andrew Fomin 7/19/2026 14:41",
 		"destroy:" : "Andrew Fomin 7/15/2026 17:28",
 		"drawOn:" : "Andrew Fomin 7/19/2026 18:49",
@@ -18,8 +18,11 @@
 		"getType" : "Andrew Fomin 7/14/2026 10:43",
 		"getUser" : "Andrew Fomin 7/14/2026 11:00",
 		"heal:" : "Andrew Fomin 7/13/2026 11:50",
-		"initialize" : "Andrew Fomin 7/18/2026 13:17",
+		"initialize" : "Andrew Fomin 7/20/2026 13:27",
 		"setHp:" : "Andrew Fomin 7/14/2026 11:11",
 		"setMaxHp:" : "Andrew Fomin 7/14/2026 11:12",
+		"setMorph" : "Andrew Fomin 7/20/2026 13:31",
+		"setMorph:" : "Andrew Fomin 7/20/2026 13:31",
+		"setPath:" : "Andrew Fomin 7/20/2026 13:26",
 		"setUser:" : "Andrew Fomin 7/14/2026 12:18",
 		"update:" : "Andrew Fomin 7/11/2026 15:14" } }

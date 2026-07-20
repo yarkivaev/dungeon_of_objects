@@ -10,7 +10,8 @@
 		"world",
 		"timer",
 		"renderer",
-		"audio" ],
+		"audio",
+		"worldMap" ],
 	"name" : "Game",
 	"pools" : [
 		 ],

@@ -15,7 +15,8 @@
 		"size",
 		"price",
 		"id",
-		"morph" ],
+		"morph",
+		"path" ],
 	"name" : "Room",
 	"pools" : [
 		 ],

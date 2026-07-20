@@ -6,7 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"room" ],
+		"room",
+		"offset",
+		"path",
+		"transformer",
+		"position",
+		"morph" ],
 	"name" : "RoomsLayer",
 	"pools" : [
 		 ],
