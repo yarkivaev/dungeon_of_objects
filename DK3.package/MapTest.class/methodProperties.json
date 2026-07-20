@@ -3,8 +3,9 @@
 		 },
 	"instance" : {
 		"testBorderCellsAreBedrock" : "Auto 7/21/2026 00:19",
-		"testHeartRoomPositionStandsOnFloorTile" : "Auto 7/21/2026 00:41",
-		"testMapGenerationCreatesTwoHeartRooms" : "Auto 7/21/2026 00:41",
+		"testHeartRoomPositionStandsOnFloorTile" : "Auto 7/21/2026 00:49",
+		"testHeartRoomsBelongToGivenPlayer" : "Auto 7/21/2026 00:49",
+		"testMapGenerationCreatesTwoHeartRooms" : "Auto 7/21/2026 00:49",
 		"testNoPath" : "vvk 7/15/2026 11:33",
 		"testPathAroundWall" : "vvk 7/15/2026 11:42",
 		"testPathFound" : "vvk 7/15/2026 11:37",

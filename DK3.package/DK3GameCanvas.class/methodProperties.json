@@ -15,5 +15,5 @@
 		"mouseWheel:" : "Auto 7/21/2026 00:12",
 		"openInWindow" : "Auto 7/21/2026 00:16",
 		"processInputFrame:" : "GK97 7/16/2026 23:42",
-		"start:with:map:creaturesGenerator:roomsGenerator:" : "Auto 7/21/2026 00:13",
+		"start:with:map:creaturesGenerator:roomsGenerator:player:" : "Auto 7/21/2026 00:49",
 		"updateWorld:" : "GK97 7/17/2026 14:56" } }

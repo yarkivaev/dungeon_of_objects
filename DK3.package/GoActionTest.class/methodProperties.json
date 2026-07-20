@@ -2,4 +2,5 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testDoDoesNotEnterImpassableTile" : "Auto 7/21/2026 00:19" } }
+		"testDoDoesNotTunnelThroughWall" : "Auto 7/21/2026 00:58",
+		"testDoStopsBeforeImpassableTile" : "Auto 7/21/2026 00:58" } }

@@ -1,5 +1,5 @@
 as yet unclassified
-initializePath: path
+initializePath: path player: aPlayer
     super initialize.
 
     self extent: 800 @ 600.	
@@ -9,7 +9,7 @@ initializePath: path
     self borderWidth: 5.
     self unlock.
 
-    player := User new.
+    player := aPlayer.
     creatureCount := 0.
 
     roomPanel := RoomPanel new.

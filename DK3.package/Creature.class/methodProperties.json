@@ -4,7 +4,8 @@
 		"creaturesDict" : "Andrew Fomin 7/16/2026 10:26",
 		"getRandomCreature" : "Andrew Fomin 7/15/2026 17:20",
 		"globalId" : "Andrew Fomin 7/14/2026 12:12",
-		"spawn:player:" : "Andrew Fomin 7/16/2026 12:05" },
+		"spawn:player:" : "Auto 7/21/2026 00:49",
+		"takeId" : "Auto 7/21/2026 00:49" },
 	"instance" : {
 		"attack" : "Egor 7/15/2026 15:44",
 		"attack:" : "Egor 7/11/2026 14:02",
@@ -32,7 +33,7 @@
 		"name" : "Egor 7/11/2026 14:16",
 		"position" : "Egor 7/11/2026 15:23",
 		"position:" : "Egor 7/11/2026 15:37",
-		"setMorph" : "Andrew Fomin 7/20/2026 17:24",
+		"setMorph" : "Auto 7/21/2026 00:58",
 		"setPath:" : "Andrew Fomin 7/20/2026 15:39",
 		"setPlayer:" : "Andrew Fomin 7/16/2026 10:53",
 		"sprite" : "Egor 7/17/2026 15:38",

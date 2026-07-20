@@ -1,23 +1,9 @@
 as yet unclassified
-spawn: aPosition player: aPlayer	
-	| creature |
-	
-	globalId ifNil: [
-		globalId := 0.	
-	].
-
-	creaturesDict ifNil: [
-		creaturesDict := Creatures new.
-	].
-
+spawn: aPosition player: aPlayer
+	| creature nextId |
 	creature := self new.
 	creature setPlayer: aPlayer.
-	
-	aPlayer addCreature: creature id: globalId.
-	self addCreature: creature id: globalId.
-	
-      globalId := globalId + 1.
-
-	^creature
-		position: aPosition
-		
+	nextId := Creature takeId.
+	aPlayer addCreature: creature id: nextId.
+	Creature addCreature: creature id: nextId.
+	^ creature position: aPosition

@@ -1,10 +1,18 @@
 as yet unclassified
 do: deltaTime
-	| currentPos nextPos map gridX gridY |
-	currentPos := actor position.
-	nextPos := (currentPos x + (5 * deltaTime)) @ currentPos y.
+	| current nextX gridY map startCell endCell cell |
+	current := actor position.
+	nextX := current x + (5 * deltaTime).
+	gridY := current y floor asInteger.
 	map := actor game map.
-	gridX := nextPos x floor asInteger.
-	gridY := nextPos y floor asInteger.
-	(map isPassableAtX: gridX y: gridY) ifFalse: [ ^ self ].
-	actor position: nextPos.
+	startCell := current x floor asInteger.
+	endCell := nextX floor asInteger.
+	startCell to: endCell do: [ :probe |
+		(map isPassableAtX: probe y: gridY) ifFalse: [
+			actor position: (probe - 1) @ gridY.
+			^ self ] ].
+	cell := nextX floor asInteger.
+	(map isPassableAtX: (cell + 1) y: gridY) ifFalse: [
+		actor position: cell @ gridY.
+		^ self ].
+	actor position: nextX @ current y.

@@ -3,7 +3,7 @@ testMapGenerationCreatesTwoHeartRooms
     | rooms hearts |
     rooms := Rooms new.
     Room setGenerator: IdGenerator new setRooms: rooms.
-    Map initializeWidth: 50 height: 50.
+    Map initializeWidth: 50 height: 50 player: User new.
     hearts := rooms getDict values select: [ :room | room class = HeartRoom ].
     self
         assert: hearts size

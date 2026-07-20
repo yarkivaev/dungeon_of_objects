@@ -1,5 +1,5 @@
 as yet unclassified
-initializeWidth: aWidth height: aHeight
+initializeWidth: aWidth height: aHeight player: aPlayer
     width := aWidth.
     height := aHeight.
     grid := Array new: aHeight.
@@ -24,7 +24,7 @@ initializeWidth: aWidth height: aHeight
 			and: [col - 5 <= firstRandomXSpawn]) ifTrue: [
 			(grid at: row) at: col put: (FloorTile new setMap: self x: col y: row).
 			(row = (firstRandomYSpawn + 2) and: [col = (firstRandomXSpawn + 2)]) ifTrue: [
-				(HeartRoom create: User new) setPosition: col @ row.
+				(HeartRoom create: aPlayer) setPosition: col @ row.
 			].
 		].
 		((((row > secondRandomYSpawn) 
@@ -33,7 +33,7 @@ initializeWidth: aWidth height: aHeight
 			and: [col - 5 <= secondRandomXSpawn]) ifTrue: [
 			(grid at: row) at: col put: (FloorTile new setMap: self x: col y: row).
 			(row = (secondRandomYSpawn + 2) and: [col = (secondRandomXSpawn + 2)]) ifTrue: [
-				(HeartRoom create: User new) setPosition: col @ row.
+				(HeartRoom create: aPlayer) setPosition: col @ row.
 			].
 		].
         ]

@@ -15,7 +15,8 @@
 		"creaturesIdGenerator",
 		"rooms",
 		"roomsIdGenerator",
-		"map" ],
+		"map",
+		"player" ],
 	"name" : "Game",
 	"pools" : [
 		 ],
