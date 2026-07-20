@@ -1,5 +1,5 @@
 as yet unclassified
-initialize
+initializePath: path
     super initialize.
 
     self extent: 800 @ 600.	
@@ -13,6 +13,7 @@ initialize
     creatureCount := 0.
 
     roomPanel := RoomPanel new.
+    roomPanel initializeRooms: path.
     self addMorph: roomPanel.
     
     "--------Left_Block--------"

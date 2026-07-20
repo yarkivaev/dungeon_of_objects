@@ -11,7 +11,8 @@
 		"timer",
 		"renderer",
 		"audio",
-		"creatures" ],
+		"creatures",
+		"rooms" ],
 	"name" : "Game",
 	"pools" : [
 		 ],

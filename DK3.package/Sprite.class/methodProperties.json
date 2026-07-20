@@ -3,6 +3,7 @@
 		"drawOn:" : "Andrew Fomin 7/15/2026 07:33" },
 	"instance" : {
 		"form" : "Egor 7/18/2026 15:08",
-		"form:" : "Egor 7/20/2026 12:33",
+		"form:size:" : "Andrew Fomin 7/20/2026 17:24",
+		"getMorph" : "Andrew Fomin 7/20/2026 16:55",
 		"initialize" : "Yaroslav Kivaev 7/20/2026 14:19",
 		"x:y:width:height:" : "Egor 7/17/2026 15:12" } }

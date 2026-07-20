@@ -16,6 +16,7 @@
 		"price",
 		"id",
 		"morph",
+		"position",
 		"path",
 		"roomPath" ],
 	"name" : "Room",

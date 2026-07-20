@@ -1,6 +1,6 @@
 initialize-release
 initialize
-    | carrier |
+    | builder monk goblin |
     super initialize.
     isRunning := false.
     renderer := nil.
@@ -19,4 +19,7 @@ initialize
     creatures add: goblin id: 1.
     creatures add: monk id: 2.
     creatures add: builder id: 3.
+
+    rooms := Rooms new.
+    rooms add: (HeartRoom create: User new) id: 1.
 

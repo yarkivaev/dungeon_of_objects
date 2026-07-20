@@ -1,5 +1,5 @@
 inizialization
-start: creatures
+start: creatures with: rooms
     super initialize.
     self extent: 800 @ 600.
     self clipSubmorphs: true.
@@ -13,8 +13,8 @@ start: creatures
     
     layers := OrderedCollection new.
     layers add: (DK3RenderLayer withCamera: camera canvas: self tileSize: 60 gridSize: 10 @ 10).
-    layers add: (RoomsLayer withCamera: camera canvas: self path: globalPath).
+    layers add: (RoomsLayer withCamera: camera rooms: rooms path: globalPath).
     layers add: (DK3EntitiesLayer withCamera: camera creatures: creatures path: globalPath).
-    layers add: (DK3UILayer withCamera: camera canvas: self).
+    layers add: (DK3UILayer withCamera: camera canvas: self path: globalPath).
     
     self linkLayers.

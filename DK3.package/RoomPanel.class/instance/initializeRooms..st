@@ -1,5 +1,5 @@
 as yet unclassified
-initialize
+initializeRooms: path
 	super initialize.
 	
 	self extent: (300 @ 200).
@@ -7,13 +7,13 @@ initialize
 	self position: (250 @ 150).
 	self hide.
 	
-	roomsPlacement := '/home/andrew/DungeonKeepers/dungeon_of_objects/sprites/Rooms/'.
+	roomsPlacement := path / 'sprites/Rooms'.
 	buttonsCollection := OrderedCollection new.
 	xOffset := 0.
 	yOffset := 0.
 	
 	Room getBuildableRoomsArray do: [ :roomName |
-		roomPath := roomsPlacement , roomName.
+		roomPath := roomsPlacement / roomName.
 		
 		button := SimpleButtonMorph new.
 		button color: Color gray.
@@ -21,16 +21,14 @@ initialize
 		button extent: 100 @ 100.
 		button borderWidth: 1.
 		button borderColor: Color black.
-
-		icon := Sprite drawOn: button.
 		
-		(roomPath , '.png') asFileReference exists ifTrue: [
-			icon := icon setForm: (roomPath , '.png') x: 100 y: 100 width: 100 height: 100.
+		(roomPath , 'png') asFileReference exists ifTrue: [
+			icon := Sprite new form: (Form fromFileNamed: (roomPath , 'png') pathString) size: 100.
 		].
 		
-		 (FileDirectory on: roomPath) exists ifTrue: [
+		 (FileDirectory on: (roomPath asString)) exists ifTrue: [
 			roomPath := roomPath asFileReference files first fullName.
-			icon := icon setForm: roomPath x: 100 y: 100 width: 100 height: 100.
+			icon :=  Sprite new form: (Form fromFileNamed: roomPath) size: 100.
 		].
 	
 		icon := icon getMorph.

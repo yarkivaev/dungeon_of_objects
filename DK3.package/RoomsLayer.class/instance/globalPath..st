@@ -1,5 +1,8 @@
 as yet unclassified
 globalPath: aPath
 	path := aPath.
-	room setPath: path.
-	room setMorph.
+	
+	rooms getDict valuesDo: [ :creature |
+		creature setPath: aPath.
+		creature setMorph.
+	].
