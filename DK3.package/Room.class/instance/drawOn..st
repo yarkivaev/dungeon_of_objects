@@ -1,3 +1,3 @@
 as yet unclassified
 drawOn: aCanvas
-	self openInWorld.
+      aCanvas addMorph: morph getMorph.

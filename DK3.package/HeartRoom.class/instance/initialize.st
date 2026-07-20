@@ -6,5 +6,5 @@ initialize
 	hp := 1000.
 	size := 3.
 	
-	self image: (Form fromFileNamed: '/home/andrew/DungeonKeepers/dungeon_of_objects/sprites/Rooms/Heart.png').
+	morph := (Sprite new setForm: '/home/andrew/DungeonKeepers/dungeon_of_objects/sprites/Rooms/Heart.png' x: 300 y: 300 width: size * 16 height: size * 16).
 	

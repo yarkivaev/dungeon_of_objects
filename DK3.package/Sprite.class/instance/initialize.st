@@ -8,5 +8,8 @@ initialize
 	y := 0.
 	width := 0.
 	height := 0.
+	currentZoom := 1.0.
 	form := Form extent: 1@1 depth: 1.
+	formPath := ''.
 	morph := ImageMorph new.
+	morph lock.

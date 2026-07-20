@@ -3,5 +3,7 @@
 		 },
 	"instance" : {
 		"initialize" : "Andrew Fomin 7/15/2026 09:58",
-		"setFrames:frameDuration:x:y:width:height:" : "Andrew Fomin 7/15/2026 16:27",
-		"update:" : "Andrew Fomin 7/15/2026 16:59" } }
+		"setFrames:frameDuration:x:y:width:height:" : "Andrew Fomin 7/19/2026 11:48",
+		"step" : "Andrew Fomin 7/19/2026 10:41",
+		"stepTime" : "Andrew Fomin 7/19/2026 10:41",
+		"update:" : "Andrew Fomin 7/19/2026 11:47" } }

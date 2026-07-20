@@ -14,9 +14,10 @@
 		"time",
 		"size",
 		"price",
-		"id" ],
+		"id",
+		"morph" ],
 	"name" : "Room",
 	"pools" : [
 		 ],
-	"super" : "ImageMorph",
+	"super" : "Object",
 	"type" : "normal" }

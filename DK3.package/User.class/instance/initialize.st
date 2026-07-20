@@ -2,12 +2,11 @@ as yet unclassified
 initialize
 	super initialize.
 	
-	ObjectInterface addObject: self.
-	
-	goldAmount := 1000.
+	goldAmount := 5000.
 	maxGold := 3000.
 	paydayAmount := 0.
 	foodAmount := 10.
+	lairsCount := 0.
 	
 	roomsDict := Rooms new.
 	creaturesDict := Creatures new.

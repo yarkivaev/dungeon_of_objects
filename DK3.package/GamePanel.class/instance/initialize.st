@@ -2,11 +2,12 @@ as yet unclassified
 initialize
     super initialize.
 
-    self extent: 800 @ 600.
-    self color: Color red.
+    self extent: 800 @ 600.	
+    self color: Color transparent.
 
     self borderColor: Color black.
     self borderWidth: 5.
+    self unlock.
 
     player := User new.
     creatureCount := 0.

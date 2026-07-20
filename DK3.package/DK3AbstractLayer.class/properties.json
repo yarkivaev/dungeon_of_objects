@@ -6,6 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"canvas",
 		"camera",
 		"nextLayer",
 		"isActive",

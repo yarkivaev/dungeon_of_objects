@@ -1,3 +1,7 @@
 as yet unclassified
 drawOn: aCanvas
-	(HeartRoom create: User new) drawOn: aCanvas.
+	room drawOn: canvas.
+	
+	room changePosition: camera position zoom: camera zoom.
+	room changeSize: camera zoom position: camera position.
+
