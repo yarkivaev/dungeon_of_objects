@@ -1,13 +1,10 @@
 {
 	"class" : {
-		"withCamera:" : "GK97 7/17/2026 00:05" },
+		"withCamera:canvas:" : "Andrew Fomin 7/19/2026 18:41" },
 	"instance" : {
-		"drawButtonOn:" : "GK97 7/17/2026 10:23",
-		"drawHealthBarOn:" : "GK97 7/17/2026 00:07",
-		"drawHealthBarOn:at:width:" : "GK97 7/17/2026 10:22",
-		"drawOn:" : "GK97 7/17/2026 10:22",
-		"drawPanelOn:" : "GK97 7/17/2026 10:22",
-		"drawTextsOn:" : "GK97 7/17/2026 10:23",
-		"initializeWithCamera:" : "GK97 7/17/2026 10:22",
-		"processPacket:" : "GK97 7/17/2026 10:23",
-		"shouldHandlePacket:" : "GK97 7/17/2026 10:23" } }
+		"canConsumePacket:" : "Andrew Fomin 7/19/2026 21:01",
+		"drawOn:" : "Andrew Fomin 7/20/2026 09:58",
+		"initialize" : "Andrew Fomin 7/19/2026 18:17",
+		"initializeWithCamera:" : "Andrew Fomin 7/19/2026 18:21",
+		"processPacket:" : "Andrew Fomin 7/19/2026 21:02",
+		"shouldHandlePacket:" : "Andrew Fomin 7/19/2026 21:01" } }

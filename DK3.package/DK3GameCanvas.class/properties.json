@@ -6,12 +6,14 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"canvas",
 		"camera",
 		"layers",
 		"startDragPoint",
 		"startCameraPosition",
 		"lastTickTime",
-		"world" ],
+		"world",
+		"timer" ],
 	"name" : "DK3GameCanvas",
 	"pools" : [
 		 ],

@@ -21,10 +21,6 @@ initialize
 		button extent: 100 @ 100.
 		button borderWidth: 1.
 		button borderColor: Color black.
-		
-		button target: self.
-		button actionSelector: #startBuilding:.
-		button arguments: (Array with: roomName).
 
 		icon := Sprite drawOn: button.
 		
@@ -39,6 +35,10 @@ initialize
 	
 		icon := icon getMorph.
 		icon position: button topLeft.
+		
+		button target: self.
+		button actionSelector: #startBuilding:icon:.
+		button arguments: (Array with: roomName with: icon).
 	
 		button addMorph: icon.
 		buttonsCollection add: button.

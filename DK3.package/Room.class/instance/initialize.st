@@ -11,6 +11,7 @@ initialize
 	size := 0.
 	price := 0.
 	time := 0.
+	morph := ImageMorph new.
 	
 	id := self class globalId.
 	

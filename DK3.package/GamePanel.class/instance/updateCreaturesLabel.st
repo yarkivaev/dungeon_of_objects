@@ -1,3 +1,3 @@
 as yet unclassified
 updateCreaturesLabel
-	creaturesLabel contents: 'Creatures: ', creatures asString.
+	creaturesLabel contents: 'Creatures: ', self creatures asString.

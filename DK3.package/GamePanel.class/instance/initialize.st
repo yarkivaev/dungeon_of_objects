@@ -2,11 +2,12 @@ as yet unclassified
 initialize
     super initialize.
 
-    self extent: 800 @ 600.
-    self color: Color red.
+    self extent: 800 @ 600.	
+    self color: Color transparent.
 
     self borderColor: Color black.
     self borderWidth: 5.
+    self unlock.
 
     player := User new.
     creatureCount := 0.
@@ -32,9 +33,9 @@ initialize
    goldProgressFill position: headerLeft topLeft + (10 @ 30).
    goldProgressBar addMorph: goldProgressFill.
 
-    healthLabel := StringMorph contents: 'Health: 30/30'.
-    healthLabel position: headerLeft topLeft + (10 @ 50).
-    headerLeft addMorph: healthLabel.
+    foodLabel := StringMorph contents: 'Food'.
+    foodLabel position: headerLeft topLeft + (10 @ 60).
+    headerLeft addMorph: foodLabel.
     
     "--------Right_Block--------"
     headerRight := BorderedMorph new extent: 200 @ 100; color: Color white; borderWidth: 2.

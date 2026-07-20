@@ -1,3 +1,3 @@
 as yet unclassified
 gold
-   ^gold
+   ^player getGold.
