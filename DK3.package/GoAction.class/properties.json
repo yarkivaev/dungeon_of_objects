@@ -1,16 +1,14 @@
 {
-	"category" : "DK3-Game",
+	"category" : "DK3-Entities",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"objects",
-		"game",
-		"creatures" ],
-	"name" : "GameUpdate",
+		 ],
+	"name" : "GoAction",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "GameAction",
 	"type" : "normal" }

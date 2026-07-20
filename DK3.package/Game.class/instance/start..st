@@ -1,6 +1,6 @@
 running
-start
-    world := GameUpdate new.
+start: aCreatures
+    world := GameUpdate new creatures: aCreatures.
     timer := Timer new.
     timer setWorld: world setGame: self. 
     timer start.
