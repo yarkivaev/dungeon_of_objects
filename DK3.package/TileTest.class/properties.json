@@ -1,15 +1,14 @@
 {
-	"category" : "DK3-Entities",
+	"category" : "DK3-GameMap-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"target",
-		"stand" ],
-	"name" : "DigAction",
+		 ],
+	"name" : "TileTest",
 	"pools" : [
 		 ],
-	"super" : "GameAction",
+	"super" : "TestCase",
 	"type" : "normal" }

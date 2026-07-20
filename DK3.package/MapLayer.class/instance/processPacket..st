@@ -6,13 +6,13 @@ processPacket: anInputFrame
 	gridPoint := camera gridFromScreen: anInputFrame mousePosition windowCenter: lastCenter.
 	anInputFrame isMouseDown ifTrue: [
 		(worldMap isValidX: gridPoint x y: gridPoint y)
-			ifTrue: [ pendingMarkTile := gridPoint ]
-			ifFalse: [ pendingMarkTile := nil ].
+			ifTrue: [ pendingMarkClick := DK3MarkClick screen: anInputFrame mousePosition grid: gridPoint ]
+			ifFalse: [ pendingMarkClick := nil ].
 		^ self ].
 	anInputFrame isMouseUp ifTrue: [
-		(pendingMarkTile notNil
-			and: [ pendingMarkTile = gridPoint
+		(pendingMarkClick notNil
+			and: [ (pendingMarkClick commitsAtScreen: anInputFrame mousePosition grid: gridPoint)
 			and: [ worldMap isValidX: gridPoint x y: gridPoint y ] ]) ifTrue: [
 				worldMap toggleMarkAtX: gridPoint x y: gridPoint y.
 				consumedPacket := true ].
-		pendingMarkTile := nil ].
+		pendingMarkClick := nil ].

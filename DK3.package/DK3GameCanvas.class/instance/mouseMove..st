@@ -8,5 +8,4 @@ mouseMove: anEvent
     delta := anEvent cursorPoint - startDragPoint.
     camera position: startCameraPosition - (delta / camera zoom).
     camera clampPositionInExtent: self innerBounds extent.
-    self processInputFrame: (DK3InputFrame createFromEvent: anEvent).
     self changed.

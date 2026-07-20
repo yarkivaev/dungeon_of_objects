@@ -2,7 +2,7 @@ as yet unclassified
 do: deltaTime
 	| current nextX gridY map startCell endCell cell |
 	current := actor position.
-	nextX := current x + (5 * deltaTime).
+	nextX := current x + (self pace * deltaTime).
 	gridY := current y floor asInteger.
 	map := actor game map.
 	startCell := current x floor asInteger.
