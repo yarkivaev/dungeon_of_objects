@@ -1,6 +1,5 @@
 as yet unclassified
 initializeWidth: aWidth height: aHeight
-   
     width := aWidth.
     height := aHeight.
     grid := Array new: aHeight.
@@ -24,8 +23,8 @@ initializeWidth: aWidth height: aHeight
 			and: [col > firstRandomXSpawn])
 			and: [col - 5 <= firstRandomXSpawn]) ifTrue: [
 			(grid at: row) at: col put: (FloorTile new setMap: self x: col y: row).
-			(row = (firstRandomXSpawn + 2) and: [col = (firstRandomYSpawn + 2)]) ifTrue: [
-				HeartRoom create: User new.
+			(row = (firstRandomYSpawn + 2) and: [col = (firstRandomXSpawn + 2)]) ifTrue: [
+				(HeartRoom create: User new) setPosition: col @ row.
 			].
 		].
 		((((row > secondRandomYSpawn) 
@@ -33,8 +32,8 @@ initializeWidth: aWidth height: aHeight
 			and: [col > secondRandomXSpawn])
 			and: [col - 5 <= secondRandomXSpawn]) ifTrue: [
 			(grid at: row) at: col put: (FloorTile new setMap: self x: col y: row).
-			(row = (secondRandomXSpawn + 2) and: [col = (secondRandomYSpawn + 2)]) ifTrue: [
-				HeartRoom create: User new.
+			(row = (secondRandomYSpawn + 2) and: [col = (secondRandomXSpawn + 2)]) ifTrue: [
+				(HeartRoom create: User new) setPosition: col @ row.
 			].
 		].
         ]

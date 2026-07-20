@@ -3,7 +3,7 @@
 		"create:" : "Andrew Fomin 7/20/2026 22:42",
 		"getBuildableRoomsArray" : "Andrew Fomin 7/17/2026 12:18",
 		"globalId" : "Andrew Fomin 7/20/2026 22:43",
-		"setGenerator:setRooms:" : "Andrew Fomin 7/20/2026 22:41" },
+		"setGenerator:setRooms:" : "Auto 7/21/2026 00:44" },
 	"instance" : {
 		"changePosition:zoom:" : "Andrew Fomin 7/19/2026 18:03",
 		"changeSize:position:" : "Andrew Fomin 7/19/2026 14:41",
@@ -25,5 +25,6 @@
 		"setMaxHp:" : "Andrew Fomin 7/14/2026 11:12",
 		"setMorph" : "Andrew Fomin 7/20/2026 17:25",
 		"setPath:" : "Andrew Fomin 7/20/2026 14:52",
+		"setPosition:" : "Auto 7/21/2026 00:41",
 		"setUser:" : "Andrew Fomin 7/14/2026 12:18",
 		"update:" : "Andrew Fomin 7/11/2026 15:14" } }
