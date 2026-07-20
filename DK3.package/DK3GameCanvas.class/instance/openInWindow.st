@@ -6,4 +6,5 @@ openInWindow
     window addMorph: self frame: (0 @ 0 extent: 1 @ 1).
     window extent: 800 @ 600.
     window openInWorld.
+    self activeHand newKeyboardFocus: self.
     ^ window
