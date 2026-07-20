@@ -1,9 +1,9 @@
 as yet unclassified
 testStarterCreaturesStandAtHeartRoom
-    | game hearts creature |
+    | game hearts |
     game := Game new.
     hearts := game player getRooms getDict values select: [ :room | room class = HeartRoom ].
-    creature := game player getCreatures getDict values asArray first.
     self
-        assert: (hearts anySatisfy: [ :heart | heart getCenter = creature position ])
-        description: 'starter creature did not stand in a heart room'
+        assert: (game player getCreatures getDict values allSatisfy: [ :creature |
+            hearts anySatisfy: [ :heart | heart getCenter = creature position ] ])
+        description: 'a starter creature did not stand in a heart room'

@@ -1,6 +1,6 @@
 as yet unclassified
 decideAction: worldCreatures
-	| visibleEnemies marks gridPos nearest |
+	| visibleEnemies marks gridPos candidates |
 	visibleEnemies := worldCreatures select: [ :each |
 		(each isKindOf: Fighter)
 			and: [ (each getPlayer ~= self getPlayer)
@@ -14,6 +14,5 @@ decideAction: worldCreatures
 	marks isEmpty ifTrue: [ ^ IdleAction actor: self ].
 	(currentAction isKindOf: DigAction) ifTrue: [
 		(marks includes: currentAction target) ifTrue: [ ^ currentAction ] ].
-	nearest := (marks asSortedCollection: [ :a :b |
-		(self position dist: a) < (self position dist: b) ]) first.
-	^ DigAction actor: self target: nearest
+	candidates := self nearestMarks: marks limit: 3.
+	^ DigAction actor: self target: candidates atRandom

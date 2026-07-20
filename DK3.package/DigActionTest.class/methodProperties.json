@@ -4,4 +4,5 @@
 	"instance" : {
 		"testDecideActionKeepsCurrentDigTarget" : "Auto 7/21/2026 01:40",
 		"testDecideActionPicksReachableMarkOverNearerUnreachable" : "Auto 7/21/2026 01:42",
-		"testDoDoesNotLeapAFullCellOnShortTick" : "Auto 7/21/2026 01:35" } }
+		"testDoDoesNotLeapAFullCellOnShortTick" : "Auto 7/21/2026 01:35",
+		"testNearestMarksLimitsToThreeClosest" : "Auto 7/21/2026 01:45" } }
