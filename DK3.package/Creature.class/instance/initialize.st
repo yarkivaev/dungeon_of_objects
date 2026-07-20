@@ -2,7 +2,7 @@ initialize-release
 initialize
 	super initialize.
 	
-	ObjectInterface addObject: self.
+	"ObjectInterface addObject: self."
 	
 	name := 'Unknown'.
 	health := 100.

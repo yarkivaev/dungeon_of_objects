@@ -3,9 +3,11 @@
 		"drawOn:" : "Andrew Fomin 7/15/2026 07:33" },
 	"instance" : {
 		"changePosition:zoom:" : "Andrew Fomin 7/20/2026 10:00",
-		"drawMorph" : "Andrew Fomin 7/16/2026 10:16",
-		"getMorph" : "Andrew Fomin 7/15/2026 13:28",
-		"initialize" : "Andrew Fomin 7/19/2026 19:09",
+		"form" : "Egor 7/18/2026 15:08",
+		"form:" : "Egor 7/20/2026 12:33",
+		"getMorph" : "Egor 7/20/2026 13:22",
+		"initialize" : "Yaroslav Kivaev 7/20/2026 14:19",
 		"magnifyBy:position:" : "Andrew Fomin 7/19/2026 18:07",
 		"setCanvas:" : "Andrew Fomin 7/15/2026 07:33",
-		"setForm:x:y:width:height:" : "Andrew Fomin 7/19/2026 13:31" } }
+		"setForm:x:y:width:height:" : "Andrew Fomin 7/19/2026 13:31",
+		"x:y:width:height:" : "Egor 7/17/2026 15:12" } }

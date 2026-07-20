@@ -1,19 +1,15 @@
 {
-	"category" : "DK3-Game",
+	"category" : "DK3-Entities",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"isRunning",
-		"world",
-		"timer",
-		"renderer",
-		"audio",
+		"uiBounds",
 		"creatures" ],
-	"name" : "Game",
+	"name" : "DK3EntitiesLayer",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "DK3AbstractLayer",
 	"type" : "normal" }
