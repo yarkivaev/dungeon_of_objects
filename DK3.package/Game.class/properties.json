@@ -12,7 +12,10 @@
 		"renderer",
 		"audio",
 		"creatures",
-		"rooms" ],
+		"creaturesIdGenerator",
+		"rooms",
+		"roomsIdGenerator",
+		"map" ],
 	"name" : "Game",
 	"pools" : [
 		 ],

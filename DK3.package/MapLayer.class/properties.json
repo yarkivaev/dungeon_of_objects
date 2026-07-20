@@ -1,15 +1,16 @@
 {
-	"category" : "DK3-Rooms",
+	"category" : "DK3-GameMap",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"rooms",
-		"generator",
-		"path" ],
-	"name" : "RoomsLayer",
+		"path",
+		"map",
+		"position",
+		"transformer" ],
+	"name" : "MapLayer",
 	"pools" : [
 		 ],
 	"super" : "DK3AbstractLayer",

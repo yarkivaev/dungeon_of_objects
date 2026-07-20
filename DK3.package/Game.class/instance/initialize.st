@@ -6,6 +6,9 @@ initialize
     renderer := nil.
     audio := GameAudioController new.
 
+    creaturesIdGenerator := IdGenerator new.
+    roomsIdGenerator := IdGenerator new.
+
     builder := Builder new.
     builder position: (3@5).
     builder currentAction: (GoAction new actor: builder).
@@ -21,5 +24,8 @@ initialize
     creatures add: builder id: 3.
 
     rooms := Rooms new.
-    rooms add: (HeartRoom create: User new) id: 1.
+
+    Room setGenerator: roomsIdGenerator setRooms: rooms.
+
+    map := Map initializeWidth: 50 height: 50.
 

@@ -1,16 +1,14 @@
 {
-	"category" : "DK3-Rooms",
+	"category" : "DK3-Game",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"rooms",
-		"generator",
-		"path" ],
-	"name" : "RoomsLayer",
+		"id" ],
+	"name" : "IdGenerator",
 	"pools" : [
 		 ],
-	"super" : "DK3AbstractLayer",
+	"super" : "Object",
 	"type" : "normal" }
