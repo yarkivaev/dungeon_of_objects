@@ -7,6 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"map",
+		"x",
+		"y",
 		"position",
 		"path",
 		"tilePath",

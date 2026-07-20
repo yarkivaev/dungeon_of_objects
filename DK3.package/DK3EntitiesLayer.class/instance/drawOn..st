@@ -1,23 +1,20 @@
 drawing
 drawOn: aCanvas
-     | offset morph rect center position  transformer  scaleFactor  scaledExtent |
-     offset := aCanvas clipRect origin.
-
-     creatures getDict do: [ :creature |
+     | morph rect center screenPoint transformer scaleFactor scaledExtent worldPoint |
+     creatures getDict valuesDo: [ :creature |
 	     morph := creature sprite getMorph.
 	     transformer := TransformMorph new.
 	     transformer addMorph: morph.
 	     transformer color: Color transparent.
-	     transformer borderWidth: 0. 
-
+	     transformer borderWidth: 0.
 	    scaleFactor := camera zoom.
 	    transformer scale: scaleFactor.
 	    scaledExtent := (morph extent * scaleFactor) rounded.
 	    transformer extent: scaledExtent.
-
 	     rect := aCanvas clipRect.
 	     center := rect center.
-	     position := camera transformToScreen: ((creature position x * 16) @ (creature position y * 16) - (0@4)) windowCenter: center.
-	     transformer position: position.
+	     worldPoint := (camera worldFromGrid: creature position) - (0 @ 4).
+	     screenPoint := camera transformToScreen: worldPoint windowCenter: center.
+	     transformer position: screenPoint.
 	     transformer fullDrawOn: aCanvas.
     ].

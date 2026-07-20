@@ -7,10 +7,8 @@ mouseWheel: anEvent
     minZoom := minZoomX max: minZoomY.
     zoomFactor := 1.02.
     newZoom := camera zoom.
-    
     anEvent isWheelUp ifTrue: [ newZoom := camera zoom * zoomFactor ].
     anEvent isWheelDown ifTrue: [ newZoom := camera zoom / zoomFactor ].
-    
     newZoom := (newZoom max: minZoom) min: 32.0.
     camera zoom: newZoom.
     camera clampPositionInExtent: windowExtent.
