@@ -11,7 +11,11 @@
 		"timer",
 		"renderer",
 		"audio",
-		"creatures" ],
+		"creatures",
+		"creaturesIdGenerator",
+		"rooms",
+		"roomsIdGenerator",
+		"map" ],
 	"name" : "Game",
 	"pools" : [
 		 ],

@@ -8,4 +8,4 @@ initialize
 	hp := 150.
 	size := 2.
 	
-	morph := (Sprite new setForm: '/Applications/Squeak6.0-22156-64bit.app/Contents/dungeon_of_objects/sprites/Rooms/Treasury.png' x: 300 y: 300 width: size * 16 height: size * 16).
+	roomPath := 'sprites/Rooms/Treasury.png'

@@ -7,8 +7,11 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"map",
-		"x",
-		"y" ],
+		"position",
+		"path",
+		"tilePath",
+		"morph",
+		"transformMorph" ],
 	"name" : "Tile",
 	"pools" : [
 		 ],

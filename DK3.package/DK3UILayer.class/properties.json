@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"panel",
-		"offset" ],
+		"path" ],
 	"name" : "DK3UILayer",
 	"pools" : [
 		 ],

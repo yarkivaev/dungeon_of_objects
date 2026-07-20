@@ -2,12 +2,8 @@
 	"class" : {
 		"drawOn:" : "Andrew Fomin 7/15/2026 07:33" },
 	"instance" : {
-		"changePosition:zoom:" : "Andrew Fomin 7/20/2026 10:00",
 		"form" : "Egor 7/18/2026 15:08",
-		"form:" : "Egor 7/20/2026 12:33",
-		"getMorph" : "Egor 7/20/2026 13:22",
+		"form:size:" : "Andrew Fomin 7/20/2026 17:24",
+		"getMorph" : "Andrew Fomin 7/20/2026 16:55",
 		"initialize" : "Yaroslav Kivaev 7/20/2026 14:19",
-		"magnifyBy:position:" : "Andrew Fomin 7/19/2026 18:07",
-		"setCanvas:" : "Andrew Fomin 7/15/2026 07:33",
-		"setForm:x:y:width:height:" : "Andrew Fomin 7/19/2026 13:31",
 		"x:y:width:height:" : "Egor 7/17/2026 15:12" } }

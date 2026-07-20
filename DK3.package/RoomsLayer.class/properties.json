@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"room" ],
+		"rooms",
+		"generator",
+		"path" ],
 	"name" : "RoomsLayer",
 	"pools" : [
 		 ],

@@ -1,14 +1,6 @@
 as yet unclassified
 create: aPlayer
 	| room |
-	
-	globalId ifNil: [
-		globalId := 0.	
-	].
-
-	roomsDict ifNil: [
-		roomsDict := Rooms new.	
-	].
 
 	room := self new.
 	
@@ -16,10 +8,10 @@ create: aPlayer
 		room setUser: aPlayer.
 		aPlayer goldDiscard: room getPrice.
 		
-		roomsDict add: room id: globalId.
-		aPlayer addRoom: room id: globalId.
+		rooms add: room id: globalId id.
+		aPlayer addRoom: room id: globalId id.
 		
-		globalId := globalId + 1.
+		globalId next.
 		
 		^room.
 	].

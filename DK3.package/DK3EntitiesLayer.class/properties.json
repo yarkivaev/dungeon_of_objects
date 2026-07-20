@@ -7,7 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"uiBounds",
-		"creatures" ],
+		"creatures",
+		"path" ],
 	"name" : "DK3EntitiesLayer",
 	"pools" : [
 		 ],

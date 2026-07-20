@@ -19,7 +19,9 @@
 		"currentRoom",
 		"currentAction",
 		"game",
-		"sprite" ],
+		"sprite",
+		"path",
+		"creaturePath" ],
 	"name" : "Creature",
 	"pools" : [
 		 ],

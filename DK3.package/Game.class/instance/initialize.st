@@ -1,10 +1,13 @@
 initialize-release
 initialize
-    | goblin monk builder |
+    | builder monk goblin |
     super initialize.
     isRunning := false.
     renderer := nil.
     audio := GameAudioController new.
+
+    creaturesIdGenerator := IdGenerator new.
+    roomsIdGenerator := IdGenerator new.
 
     builder := Builder new.
     builder position: (3@5).
@@ -19,4 +22,10 @@ initialize
     creatures add: goblin id: 1.
     creatures add: monk id: 2.
     creatures add: builder id: 3.
+
+    rooms := Rooms new.
+
+    Room setGenerator: roomsIdGenerator setRooms: rooms.
+
+    map := Map initializeWidth: 50 height: 50.
 
