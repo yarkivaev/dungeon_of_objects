@@ -13,8 +13,7 @@
 		"startCameraPosition",
 		"lastTickTime",
 		"world",
-		"timer",
-		"globalPath" ],
+		"timer" ],
 	"name" : "DK3GameCanvas",
 	"pools" : [
 		 ],
