@@ -14,7 +14,8 @@
 		"lastTickTime",
 		"world",
 		"timer",
-		"globalPath" ],
+		"globalPath",
+		"game" ],
 	"name" : "DK3GameCanvas",
 	"pools" : [
 		 ],

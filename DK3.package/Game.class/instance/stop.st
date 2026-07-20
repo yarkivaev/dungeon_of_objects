@@ -1,4 +1,4 @@
 running
 stop
     isRunning := false.
-    timer changeRunning. 
+    timer ifNotNil: [ timer stop ].

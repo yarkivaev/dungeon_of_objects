@@ -9,6 +9,7 @@ open
         roomsGenerator: roomsIdGenerator
         player: player.
     self renderer: canvas.
+    canvas game: self.
     canvas openInWindow.
     self start: creatures.
     ^ self

@@ -4,7 +4,7 @@
 	"instance" : {
 		"addEvent:" : "Egor 7/16/2026 11:25",
 		"addObject:" : "Andrew Fomin 7/15/2026 14:32",
-		"exit" : "vvk 7/17/2026 12:26",
+		"exit" : "Auto 7/21/2026 01:48",
 		"flushEvents" : "Egor 7/16/2026 11:31",
 		"getEvents" : "Egor 7/16/2026 11:24",
 		"getIsRunning" : "Andrew Fomin 7/15/2026 14:22",
@@ -12,10 +12,10 @@
 		"getWorld" : "Andrew Fomin 7/15/2026 14:03",
 		"initialize" : "Auto 7/21/2026 01:45",
 		"map" : "Auto 7/21/2026 00:19",
-		"open" : "Auto 7/21/2026 00:49",
+		"open" : "Auto 7/21/2026 01:48",
 		"player" : "Auto 7/21/2026 00:49",
 		"renderer" : "GK97 7/17/2026 16:19",
 		"renderer:" : "GK97 7/17/2026 14:58",
 		"save" : "Andrew Fomin 7/11/2026 13:05",
 		"start:" : "Egor 7/20/2026 14:52",
-		"stop" : "GK97 7/17/2026 15:10" } }
+		"stop" : "Auto 7/21/2026 01:48" } }

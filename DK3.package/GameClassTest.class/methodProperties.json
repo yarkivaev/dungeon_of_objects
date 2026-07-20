@@ -3,6 +3,7 @@
 		 },
 	"instance" : {
 		"testClassCreation" : "Andrew Fomin 7/14/2026 13:48",
+		"testExitStopsTimer" : "Auto 7/21/2026 01:48",
 		"testGameEventCollector" : "Egor 7/16/2026 15:02",
 		"testGameKeepsUserPlayer" : "Auto 7/21/2026 00:49",
 		"testGameStopping" : "Andrew Fomin 7/14/2026 13:51",
