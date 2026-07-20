@@ -8,8 +8,12 @@
 	"instvars" : [
 		"path",
 		"map",
+		"worldMap",
 		"position",
-		"transformer" ],
+		"transformer",
+		"lastCenter",
+		"consumedPacket",
+		"pendingMarkTile" ],
 	"name" : "MapLayer",
 	"pools" : [
 		 ],

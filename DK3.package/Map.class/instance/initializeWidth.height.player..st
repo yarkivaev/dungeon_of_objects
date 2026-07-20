@@ -2,6 +2,7 @@ as yet unclassified
 initializeWidth: aWidth height: aHeight player: aPlayer
     width := aWidth.
     height := aHeight.
+    marks := Set new.
     grid := Array new: aHeight.
     randomTilesArray := #('Earth' 'Earth' 'Earth' 'Earth' 'Gold').
     firstRandomXSpawn := (5 to: 20) atRandom.

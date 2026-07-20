@@ -14,7 +14,8 @@
 		"firstRandomXSpawn",
 		"firstRandomYSpawn",
 		"secondRandomXSpawn",
-		"secondRandomYSpawn" ],
+		"secondRandomYSpawn",
+		"marks" ],
 	"name" : "Map",
 	"pools" : [
 		 ],

@@ -15,5 +15,5 @@ initialize
     heart := (player getRooms getDict associations asSortedCollection: [ :left :right | left key < right key ]) first value.
     digger := Digger spawn: heart getCenter player: player.
     digger game: self.
-    digger currentAction: (GoAction new actor: digger).
+    digger currentAction: (IdleAction new actor: digger).
     creatures add: digger id: 1.

@@ -10,7 +10,8 @@
 		"mouseButtons",
 		"mouseScroll",
 		"keyboardState",
-		"consumed" ],
+		"consumed",
+		"mousePhase" ],
 	"name" : "DK3InputFrame",
 	"pools" : [
 		 ],

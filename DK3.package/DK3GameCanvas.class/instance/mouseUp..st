@@ -1,9 +1,6 @@
 event handling
-mouseDown: anEvent
+mouseUp: anEvent
     | frame click |
-    anEvent hand newKeyboardFocus: self.
-    startDragPoint := anEvent cursorPoint.
-    startCameraPosition := camera position.
     frame := DK3InputFrame createFromEvent: anEvent.
     click := anEvent position.
     click ifNil: [ click := anEvent cursorPoint - self position ].

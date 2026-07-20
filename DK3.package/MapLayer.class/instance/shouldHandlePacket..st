@@ -1,3 +1,3 @@
 as yet unclassified
 shouldHandlePacket: anInputFrame
-	^false.
+	^ anInputFrame isMouseDown or: [ anInputFrame isMouseUp ]

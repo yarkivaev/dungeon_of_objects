@@ -2,12 +2,12 @@
 	"class" : {
 		"withCamera:map:path:" : "Andrew Fomin 7/20/2026 20:35" },
 	"instance" : {
-		"canConsumePacket:" : "Andrew Fomin 7/20/2026 17:40",
-		"drawOn:" : "Auto 7/20/2026 23:58",
+		"canConsumePacket:" : "Auto 7/21/2026 01:08",
+		"drawOn:" : "Auto 7/21/2026 01:14",
 		"globalPath:" : "Andrew Fomin 7/20/2026 20:35",
 		"initializeWithCamera:" : "Andrew Fomin 7/20/2026 21:10",
 		"position" : "Andrew Fomin 7/20/2026 20:27",
 		"position:" : "Andrew Fomin 7/20/2026 20:28",
-		"processPacket:" : "Andrew Fomin 7/20/2026 17:42",
-		"setMap:" : "Andrew Fomin 7/20/2026 20:37",
-		"shouldHandlePacket:" : "Andrew Fomin 7/20/2026 17:42" } }
+		"processPacket:" : "Auto 7/21/2026 01:16",
+		"setMap:" : "Auto 7/21/2026 01:08",
+		"shouldHandlePacket:" : "Auto 7/21/2026 01:16" } }
