@@ -2,5 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
+		"initialize" : "Auto 7/21/2026 00:19",
 		"isDiggable" : "vvk 7/11/2026 14:28",
 		"isPassable" : "vvk 7/11/2026 14:27" } }
