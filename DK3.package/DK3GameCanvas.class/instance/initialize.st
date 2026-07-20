@@ -21,5 +21,3 @@ initialize
     layers add: (DK3UILayer withCamera: camera canvas: self).
     
     self linkLayers.
-    lastTickTime := Time millisecondClockValue.
-    self startStepping.

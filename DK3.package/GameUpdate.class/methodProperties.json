@@ -2,8 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addObject:" : "Andrew Fomin 7/15/2026 14:05",
-		"game:" : "Egor 7/16/2026 14:56",
-		"getObjects" : "Andrew Fomin 7/19/2026 11:03",
-		"initialize" : "Andrew Fomin 7/15/2026 14:03",
-		"update:" : "Andrew Fomin 7/19/2026 11:07" } }
+		"addObject:" : "GK97 7/17/2026 15:13",
+		"game" : "GK97 7/17/2026 15:11",
+		"game:" : "GK97 7/17/2026 15:11",
+		"initialize" : "GK97 7/17/2026 15:10",
+		"objects" : "GK97 7/17/2026 15:11",
+		"objects:" : "GK97 7/17/2026 15:11",
+		"update:" : "GK97 7/17/2026 15:13" } }
+

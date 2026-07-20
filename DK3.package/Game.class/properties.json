@@ -9,6 +9,7 @@
 		"isRunning",
 		"world",
 		"timer",
+		"renderer",
 		"audio" ],
 	"name" : "Game",
 	"pools" : [
