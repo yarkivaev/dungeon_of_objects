@@ -1,9 +1,10 @@
 {
 	"class" : {
-		"withCamera:canvas:" : "Andrew Fomin 7/19/2026 18:41" },
+		"withCamera:canvas:path:" : "Andrew Fomin 7/20/2026 14:51" },
 	"instance" : {
 		"canConsumePacket:" : "Andrew Fomin 7/18/2026 11:40",
 		"drawOn:" : "Andrew Fomin 7/19/2026 18:47",
+		"globalPath:" : "Andrew Fomin 7/20/2026 14:57",
 		"initialize" : "Andrew Fomin 7/20/2026 11:21",
 		"initializeWithCamera:" : "Andrew Fomin 7/18/2026 11:39",
 		"processPacket:" : "Andrew Fomin 7/18/2026 11:41",

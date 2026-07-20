@@ -18,8 +18,10 @@
 		"getType" : "Andrew Fomin 7/14/2026 10:43",
 		"getUser" : "Andrew Fomin 7/14/2026 11:00",
 		"heal:" : "Andrew Fomin 7/13/2026 11:50",
-		"initialize" : "Yaroslav Kivaev 7/20/2026 14:30",
+		"initialize" : "Andrew Fomin 7/20/2026 14:52",
 		"setHp:" : "Andrew Fomin 7/14/2026 11:11",
 		"setMaxHp:" : "Andrew Fomin 7/14/2026 11:12",
+		"setMorph" : "Andrew Fomin 7/20/2026 16:19",
+		"setPath:" : "Andrew Fomin 7/20/2026 14:52",
 		"setUser:" : "Andrew Fomin 7/14/2026 12:18",
 		"update:" : "Andrew Fomin 7/11/2026 15:14" } }

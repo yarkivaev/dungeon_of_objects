@@ -12,6 +12,7 @@ initialize
 	price := 0.
 	time := 0.
 	morph := ImageMorph new.
+	path := ''.
 	
 	id := self class globalId.
 	
