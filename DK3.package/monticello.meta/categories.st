@@ -1,12 +1,16 @@
+SystemOrganization addCategory: #'DK3-Core'!
 SystemOrganization addCategory: #'DK3-Entities'!
 SystemOrganization addCategory: #'DK3-Entities-Tests'!
 SystemOrganization addCategory: #'DK3-Game'!
 SystemOrganization addCategory: #'DK3-Game-Tests'!
 SystemOrganization addCategory: #'DK3-GameMap'!
 SystemOrganization addCategory: #'DK3-GameMap-Tests'!
+SystemOrganization addCategory: #'DK3-Render'!
 SystemOrganization addCategory: #'DK3-Render_Tests'!
 SystemOrganization addCategory: #'DK3-Rooms'!
 SystemOrganization addCategory: #'DK3-Rooms-Tests'!
+SystemOrganization addCategory: #'DK3-Sound'!
+SystemOrganization addCategory: #'DK3-Sound-Tests'!
 SystemOrganization addCategory: #'DK3-Textures'!
 SystemOrganization addCategory: #'DK3-Textures-Tests'!
 SystemOrganization addCategory: #'DK3-Timer'!
@@ -15,7 +19,3 @@ SystemOrganization addCategory: #'DK3-UI'!
 SystemOrganization addCategory: #'DK3-UI-Tests'!
 SystemOrganization addCategory: #'DK3-User'!
 SystemOrganization addCategory: #'DK3-User-Tests'!
-SystemOrganization addCategory: #'DK3-Core'!
-SystemOrganization addCategory: #'DK3-Render'!
-SystemOrganization addCategory: #'DK3-Sound-Tests'!
-SystemOrganization addCategory: #'DK3-Sound'!
