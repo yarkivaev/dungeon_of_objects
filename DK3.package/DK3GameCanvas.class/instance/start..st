@@ -8,9 +8,6 @@ start: creatures
     camera position: 0 @ 0.
     camera zoom: 1.0.
     camera worldExtent: 1600 @ 1600.
-
-    world := GameUpdate new. 
-    ObjectInterface setWorld: world.
     
     layers := OrderedCollection new.
     layers add: (DK3RenderLayer withCamera: camera canvas: self tileSize: 60 gridSize: 10 @ 10).
