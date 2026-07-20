@@ -6,7 +6,7 @@ start: creatures with: rooms map: worldMap creaturesGenerator: creaturesGen room
     
     camera := DK3CameraViewport new.
     camera position: 0 @ 0.
-    camera zoom: 1.0.
+    camera zoom: 16.0.
     camera worldExtent: 1600 @ 1600.
 
     globalPath :=  SquotWorkingCopy allInstances first repository gitRepository baseDir parent.
