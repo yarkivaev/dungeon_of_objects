@@ -1,3 +1,8 @@
 packet handling
 processPacket: anInputFrame
-    Transcript show: 'UI click at: '; cr.
+    | clickPos |
+    clickPos := anInputFrame mousePosition.
+    
+    (panel containsPoint: clickPos) ifTrue: [
+        panel handleMouseUp: clickPos.
+    ].

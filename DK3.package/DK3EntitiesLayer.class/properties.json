@@ -1,0 +1,15 @@
+{
+	"category" : "DK3-Entities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"uiBounds",
+		"creatures" ],
+	"name" : "DK3EntitiesLayer",
+	"pools" : [
+		 ],
+	"super" : "DK3AbstractLayer",
+	"type" : "normal" }
