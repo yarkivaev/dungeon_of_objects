@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"withCamera:" : "GK97 7/17/2026 00:05",
+		"withCamera:creatures:" : "Egor 7/18/2026 12:20" },
+	"instance" : {
+		"drawButtonOn:" : "GK97 7/17/2026 10:23",
+		"drawHealthBarOn:" : "GK97 7/17/2026 00:07",
+		"drawHealthBarOn:at:width:" : "GK97 7/17/2026 10:22",
+		"drawOn:" : "Egor 7/20/2026 13:48",
+		"drawPanelOn:" : "GK97 7/17/2026 10:22",
+		"drawTextsOn:" : "GK97 7/17/2026 10:23",
+		"initializeWithCamera:" : "GK97 7/17/2026 10:22",
+		"initializeWithCamera:creatures:" : "Egor 7/18/2026 11:49",
+		"processPacket:" : "GK97 7/17/2026 10:23",
+		"shouldHandlePacket:" : "GK97 7/17/2026 10:23" } }

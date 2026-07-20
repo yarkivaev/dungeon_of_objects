@@ -12,9 +12,7 @@
 		"width",
 		"height",
 		"form",
-		"formPath",
-		"morph",
-		"currentZoom" ],
+		"morph" ],
 	"name" : "Sprite",
 	"pools" : [
 		 ],
