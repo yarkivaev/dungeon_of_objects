@@ -3,4 +3,7 @@ step
     | dt |
     dt := self calculateDeltaTime.
     world update: dt.
-    game renderer updateWorld: world.
+    
+    game renderer ifNotNil: [
+        game renderer updateWorld: world.
+    ].

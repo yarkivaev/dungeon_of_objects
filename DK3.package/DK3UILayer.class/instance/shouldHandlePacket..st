@@ -1,3 +1,3 @@
 packet handling
 shouldHandlePacket: anInputFrame
-	^false.
+    ^ anInputFrame isMousePressed.
