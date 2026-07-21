@@ -35,6 +35,7 @@ initializeWidth: aWidth height: aHeight player: aPlayer
 			(grid at: row) at: col put: (FloorTile new setMap: self x: col y: row).
 			(row = (secondRandomYSpawn + 2) and: [col = (secondRandomXSpawn + 2)]) ifTrue: [
 				(HeartRoom create: aPlayer) setPosition: col @ row.
+				Transcript show: HeartRoom globalId.
 			].
 		].
         ]

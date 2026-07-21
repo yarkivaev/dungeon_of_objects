@@ -3,11 +3,14 @@ start: creatures with: rooms map: worldMap creaturesGenerator: creaturesGen room
     super initialize.
     self extent: 800 @ 600.
     self clipSubmorphs: true.
+
     camera := DK3CameraViewport new.
     camera position: 0 @ 0.
-    camera level: 4.
+    camera level: 1.
     camera worldExtent: worldMap pixelExtent.
+
     globalPath :=  SquotWorkingCopy allInstances first repository gitRepository baseDir parent.
+
     layers := OrderedCollection new.
     layers add: (DK3RenderLayer withCamera: camera tileSize: 60 gridSize: 10 @ 10).
     layers add: (MapLayer withCamera: camera map: worldMap path: globalPath).

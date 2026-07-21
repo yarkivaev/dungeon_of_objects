@@ -2,8 +2,8 @@
 	"category" : "DK3-Entities",
 	"classinstvars" : [
 		"globalId",
-		"creatureNamesList",
-		"creaturesDict" ],
+		"creatures",
+		"creatureNamesList" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",

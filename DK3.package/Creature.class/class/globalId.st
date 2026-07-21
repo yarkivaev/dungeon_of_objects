@@ -1,3 +1,3 @@
 as yet unclassified
 globalId
-	^globalId.
+	^globalId id

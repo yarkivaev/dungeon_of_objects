@@ -1,11 +1,10 @@
 {
 	"class" : {
-		"addCreature:id:" : "Andrew Fomin 7/16/2026 11:39",
-		"creaturesDict" : "Andrew Fomin 7/16/2026 10:26",
+		"creatures" : "Andrew Fomin 7/21/2026 12:58",
 		"getRandomCreature" : "Andrew Fomin 7/15/2026 17:20",
-		"globalId" : "Andrew Fomin 7/14/2026 12:12",
-		"spawn:player:" : "Auto 7/21/2026 00:49",
-		"takeId" : "Auto 7/21/2026 00:49" },
+		"globalId" : "Andrew Fomin 7/21/2026 13:33",
+		"setGenerator:setCreatures:" : "Andrew Fomin 7/21/2026 14:54",
+		"spawn:player:game:" : "Andrew Fomin 7/21/2026 14:56" },
 	"instance" : {
 		"attack" : "Egor 7/15/2026 15:44",
 		"attack:" : "Egor 7/11/2026 14:02",
