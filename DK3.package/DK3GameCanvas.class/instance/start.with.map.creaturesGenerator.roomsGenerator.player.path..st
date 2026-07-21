@@ -1,5 +1,5 @@
 inizialization
-start: creatures with: rooms map: worldMap creaturesGenerator: creaturesGen roomsGenerator: roomsGen player: aPlayer
+start: creatures with: rooms map: worldMap creaturesGenerator: creaturesGen roomsGenerator: roomsGen player: aPlayer path: aPath
     super initialize.
     self extent: 800 @ 600.
     self clipSubmorphs: true.
@@ -9,7 +9,7 @@ start: creatures with: rooms map: worldMap creaturesGenerator: creaturesGen room
     camera level: 1.
     camera worldExtent: worldMap pixelExtent.
 
-    globalPath :=  SquotWorkingCopy allInstances first repository gitRepository baseDir parent.
+    globalPath := aPath.
 
     layers := OrderedCollection new.
     layers add: (DK3RenderLayer withCamera: camera tileSize: 60 gridSize: 10 @ 10).

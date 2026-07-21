@@ -4,7 +4,6 @@ initialize
     super initialize.
     isRunning := false.
     renderer := nil.
-    audio := GameAudioController new.
     player := User new.
     creaturesIdGenerator := IdGenerator new.
     roomsIdGenerator := IdGenerator new.

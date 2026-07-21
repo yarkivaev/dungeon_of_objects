@@ -5,5 +5,5 @@ start: aCreatures
     timer setWorld: world setGame: self. 
     timer start.
 
-    audio := GameAudioController new.
+    audio := GameAudioController addPath: path.
     audio playBackgroundMusic: 'soundtrack.wav'.

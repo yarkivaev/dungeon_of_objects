@@ -1,13 +1,15 @@
 opening
 open
     | canvas |
+    path :=  SquotWorkingCopy allInstances first repository gitRepository baseDir parent.
     canvas := DK3GameCanvas new
         start: creatures
         with: rooms
         map: map
         creaturesGenerator: creaturesIdGenerator
         roomsGenerator: roomsIdGenerator
-        player: player.
+        player: player
+	  path: path.
     self renderer: canvas.
     canvas game: self.
     canvas openInWindow.
