@@ -1,8 +1,15 @@
 as yet unclassified
-playBackgroundMusic: filePath
-    | baseSound |
+playBackgroundMusic: aFilePath
     self stopBackgroundMusic.
-    baseSound := SampledSound fromWaveFileNamed: filePath.
-    backgroundMusic := RepeatingSound on: baseSound.
-    backgroundMusic loudness: 0.2. 
-    backgroundMusic play.
+
+    musicProcess := [
+        [ true ] whileTrue: [
+            backgroundMusic := SampledSound fromWaveFileNamed: aFilePath.
+            backgroundMusic ifNotNil: [
+                backgroundMusic play.
+                [ backgroundMusic isPlaying ] whileTrue: [
+                    (Delay forMilliseconds: 200) wait.
+                ].
+            ].
+        ]
+    ] fork.
