@@ -1,6 +1,8 @@
-as yet unclassified
+updating
 update: deltaTime
-	objects do: [ :object | 
-		(object respondsTo: #game:) ifTrue: [ object game: game ].
-		object update: deltaTime world: objects.
-	]
+    | world |
+    objects ifNil: [ ^ self ].
+    world := creatures getDict values asArray.
+    creatures getDict valuesDo: [ :creature |
+        creature currentAction: (creature decideAction: world).
+        creature currentAction do: deltaTime ].

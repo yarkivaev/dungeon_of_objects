@@ -1,10 +1,22 @@
 {
 	"class" : {
-		"initializeWidth:height:" : "vvk 7/11/2026 15:43" },
+		"initializeWidth:height:" : "Auto 7/21/2026 00:49",
+		"initializeWidth:height:player:" : "Auto 7/21/2026 00:49" },
 	"instance" : {
 		"atX:y:" : "vvk 7/11/2026 14:21",
 		"atX:y:put:" : "vvk 7/11/2026 14:22",
+		"clearMarkAtX:y:" : "Auto 7/21/2026 01:08",
 		"findPathFrom:to:" : "vvk 7/14/2026 14:53",
-		"initializeWidth:height:" : "vvk 7/11/2026 16:47",
+		"grid" : "Andrew Fomin 7/20/2026 20:36",
+		"hasStandPathTo:from:" : "Auto 7/21/2026 01:42",
+		"height" : "Auto 7/20/2026 23:45",
+		"initializeWidth:height:player:" : "Auto 7/21/2026 01:08",
+		"isMarkedAtX:y:" : "Auto 7/21/2026 01:08",
+		"isPassableAtX:y:" : "Auto 7/21/2026 00:19",
 		"isValidX:y:" : "vvk 7/11/2026 14:23",
-		"isWalkableAtX:y:" : "vvk 7/14/2026 13:20" } }
+		"isWalkableAtX:y:" : "vvk 7/14/2026 13:20",
+		"markedPoints" : "Auto 7/21/2026 01:08",
+		"pixelExtent" : "Auto 7/20/2026 23:45",
+		"pruneMarks" : "Auto 7/21/2026 01:08",
+		"toggleMarkAtX:y:" : "Auto 7/21/2026 01:08",
+		"width" : "Auto 7/20/2026 23:45" } }

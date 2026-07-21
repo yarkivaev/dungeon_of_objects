@@ -2,7 +2,7 @@ as yet unclassified
 initialize
 	super initialize.
 	
-	ObjectInterface addObject: self.
+	"ObjectInterface addObject: self."
 	
 	type := ''.
 	
@@ -11,6 +11,9 @@ initialize
 	size := 0.
 	price := 0.
 	time := 0.
+	morph := ImageMorph new.
+	position := (0@0).
+	path := ''.
 	
 	id := self class globalId.
 	

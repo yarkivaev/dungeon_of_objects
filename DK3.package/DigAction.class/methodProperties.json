@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"actor:target:" : "Auto 7/21/2026 01:08" },
+	"instance" : {
+		"do:" : "Auto 7/21/2026 01:40",
+		"pickStand:from:map:" : "Auto 7/21/2026 01:40",
+		"refreshStand:from:map:" : "Auto 7/21/2026 01:40",
+		"target" : "Auto 7/21/2026 01:40",
+		"target:" : "Auto 7/21/2026 01:08" } }

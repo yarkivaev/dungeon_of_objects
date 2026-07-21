@@ -8,7 +8,12 @@
 	"instvars" : [
 		"map",
 		"x",
-		"y" ],
+		"y",
+		"position",
+		"path",
+		"tilePath",
+		"morph",
+		"transformMorph" ],
 	"name" : "Tile",
 	"pools" : [
 		 ],

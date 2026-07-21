@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"uiBounds" ],
+		"panel",
+		"path" ],
 	"name" : "DK3UILayer",
 	"pools" : [
 		 ],

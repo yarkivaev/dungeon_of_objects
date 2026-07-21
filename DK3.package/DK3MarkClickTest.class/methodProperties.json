@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testCannotCommitWhenReleaseLandsOnOtherTile" : "Auto 7/21/2026 01:25",
+		"testCannotCommitWhenScreenDragKeepsSameGrid" : "Auto 7/21/2026 01:25",
+		"testCommitsWhenReleaseStaysOnSameTileWithoutDrag" : "Auto 7/21/2026 01:25" } }

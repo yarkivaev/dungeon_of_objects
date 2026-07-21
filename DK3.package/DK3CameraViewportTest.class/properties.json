@@ -1,0 +1,14 @@
+{
+	"category" : "DK3-Render_Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "DK3CameraViewportTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

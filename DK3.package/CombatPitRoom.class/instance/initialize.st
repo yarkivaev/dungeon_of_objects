@@ -8,4 +8,6 @@ initialize
 	time := 210.
 	hp := 250.
 	
+	roomPath := 'sprites/Rooms/CombatPit.png'.
+	
 	maxCreatures := 2.

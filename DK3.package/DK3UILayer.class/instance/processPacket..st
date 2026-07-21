@@ -1,9 +1,7 @@
 packet handling
 processPacket: anInputFrame
-    | clickPos buttonBounds |
+    | clickPos |
     clickPos := anInputFrame mousePosition.
-    buttonBounds := 150 @ 80 extent: 60 @ 30.
-    (buttonBounds containsPoint: clickPos) ifTrue: [
-        Transcript show: 'Button clicked!'; cr.
+    (panel bounds containsPoint: clickPos) ifTrue: [
+        panel handleMouseUp: clickPos.
     ].
-    Transcript show: 'UI click at: ', clickPos asString; cr.

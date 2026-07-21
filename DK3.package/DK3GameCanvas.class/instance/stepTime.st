@@ -1,3 +1,0 @@
-steping
-stepTime
-    ^ 16

@@ -2,7 +2,7 @@
 	"category" : "DK3-Rooms",
 	"classinstvars" : [
 		"globalId",
-		"roomsDict" ],
+		"rooms" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -14,7 +14,11 @@
 		"time",
 		"size",
 		"price",
-		"id" ],
+		"id",
+		"morph",
+		"position",
+		"path",
+		"roomPath" ],
 	"name" : "Room",
 	"pools" : [
 		 ],

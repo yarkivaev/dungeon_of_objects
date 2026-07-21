@@ -2,10 +2,17 @@
 	"class" : {
 		 },
 	"instance" : {
+		"dig:" : "Auto 7/21/2026 01:08",
+		"initialize" : "Andrew Fomin 7/20/2026 21:02",
 		"isDiggable" : "vvk 7/11/2026 14:24",
 		"isPassable" : "vvk 7/11/2026 14:24",
 		"isWalkable" : "vvk 7/14/2026 13:08",
-		"replaceWith:" : "vvk 7/11/2026 15:59",
-		"setMap:x:y:" : "vvk 7/11/2026 16:27",
-		"x" : "vvk 7/11/2026 14:23",
-		"y" : "vvk 7/11/2026 14:24" } }
+		"morph" : "Andrew Fomin 7/20/2026 20:32",
+		"paint:" : "Auto 7/21/2026 01:30",
+		"position" : "Andrew Fomin 7/20/2026 20:58",
+		"replaceWith:" : "Auto 7/21/2026 01:30",
+		"setMap:x:y:" : "Auto 7/21/2026 00:01",
+		"setMorph" : "Auto 7/21/2026 01:30",
+		"setPath:" : "Andrew Fomin 7/20/2026 20:18",
+		"transformer" : "Andrew Fomin 7/20/2026 21:10",
+		"transformer:" : "Andrew Fomin 7/20/2026 21:09" } }

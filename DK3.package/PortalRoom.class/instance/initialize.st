@@ -8,6 +8,9 @@ initialize
 	hp := 100.
 	size := 2.
 	delay := 90.
+	timeCounter := 0.
+	
+	roomPath := 'sprites/Rooms/Portal'.
 	
 
 	

@@ -2,8 +2,8 @@
 	"class" : {
 		"drawOn:" : "Andrew Fomin 7/15/2026 07:33" },
 	"instance" : {
-		"drawMorph" : "Andrew Fomin 7/16/2026 10:16",
+		"form" : "Egor 7/18/2026 15:08",
+		"form:size:" : "Andrew Fomin 7/20/2026 17:24",
 		"getMorph" : "Andrew Fomin 7/15/2026 13:28",
-		"initialize" : "Andrew Fomin 7/16/2026 11:08",
-		"setCanvas:" : "Andrew Fomin 7/15/2026 07:33",
-		"setForm:x:y:width:height:" : "Andrew Fomin 7/15/2026 13:28" } }
+		"initialize" : "Yaroslav Kivaev 7/20/2026 14:19",
+		"x:y:width:height:" : "Egor 7/17/2026 15:12" } }

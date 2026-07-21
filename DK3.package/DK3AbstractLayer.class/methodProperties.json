@@ -1,11 +1,13 @@
 {
 	"class" : {
-		"withCamera:" : "GK97 7/16/2026 23:27" },
+		"withCamera:canvas:" : "Andrew Fomin 7/19/2026 18:40" },
 	"instance" : {
 		"activate" : "GK97 7/16/2026 23:24",
 		"camera" : "GK97 7/16/2026 23:23",
 		"camera:" : "GK97 7/16/2026 23:23",
 		"canConsumePacket:" : "GK97 7/16/2026 23:26",
+		"canvas" : "Andrew Fomin 7/19/2026 18:39",
+		"canvas:" : "Andrew Fomin 7/19/2026 18:39",
 		"deactivate" : "GK97 7/16/2026 23:24",
 		"forwardPacket:" : "GK97 7/16/2026 23:26",
 		"gameCanvas" : "GK97 7/16/2026 23:23",

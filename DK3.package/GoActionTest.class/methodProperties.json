@@ -1,0 +1,6 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testDoDoesNotTunnelThroughWall" : "Auto 7/21/2026 00:58",
+		"testDoStopsBeforeImpassableTile" : "Auto 7/21/2026 00:58" } }

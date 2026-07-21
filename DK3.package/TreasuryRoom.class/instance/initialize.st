@@ -7,3 +7,5 @@ initialize
 	time := 60.
 	hp := 150.
 	size := 2.
+	
+	roomPath := 'sprites/Rooms/Treasury.png'

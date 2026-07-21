@@ -11,7 +11,8 @@
 		"lastTime",
 		"currentTime",
 		"dt",
-		"isRunning" ],
+		"isRunning",
+		"process" ],
 	"name" : "Timer",
 	"pools" : [
 		 ],

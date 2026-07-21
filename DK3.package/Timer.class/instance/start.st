@@ -1,9 +1,7 @@
 timeChange
 start
-	[
+	isRunning := true.
+	process := [
 		[ isRunning ] whileTrue: [
 			self step.
-			world update: dt.
-	      	(Delay forSeconds: 0.016) wait.
-		].
-	] fork.
+			(Delay forMilliseconds: 16) wait ] ] fork.

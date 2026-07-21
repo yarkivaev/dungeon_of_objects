@@ -8,6 +8,8 @@ initialize
 	time := 120.
 	hp := 200.
 	
+	roomPath := 'sprites/Rooms/Training.png'.
+	
 	maxCreatures := 2.
 	
 	trainingTime := 40.

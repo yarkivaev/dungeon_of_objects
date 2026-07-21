@@ -18,7 +18,10 @@
 		"id",
 		"currentRoom",
 		"currentAction",
-		"game" ],
+		"game",
+		"sprite",
+		"path",
+		"creaturePath" ],
 	"name" : "Creature",
 	"pools" : [
 		 ],

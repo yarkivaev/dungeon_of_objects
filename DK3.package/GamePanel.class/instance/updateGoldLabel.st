@@ -1,10 +1,10 @@
 as yet unclassified
 updateGoldLabel
-    | progressWidth |
-    goldLabel contents: 'Gold: ', gold asString, '/10000'.
-    
-    progressWidth := (gold / 10000 * 180) floor.
-    
-    progressWidth := progressWidth min: 180.
-    
-    goldProgressFill extent: progressWidth @ 10.
+    | progressWidth barWidth |
+    goldLabel contents: 'Gold: ', self gold asString, '/', player getMaxGold asString.
+    self layoutHeaderContents.
+    barWidth := goldProgressBar width.
+    progressWidth := (self gold / player getMaxGold * barWidth) floor.
+    progressWidth := progressWidth min: barWidth.
+    goldProgressFill extent: progressWidth @ goldProgressBar height.
+    goldProgressFill position: goldProgressBar topLeft.

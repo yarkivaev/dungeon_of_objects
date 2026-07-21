@@ -3,7 +3,7 @@ update: deltaTime
 	| creatureClass |
 	timeCounter := timeCounter + deltaTime.
 	
-	player getLairs < player getRooms size ifTrue: [
+	player getLairs < player getRooms getDict size ifTrue: [
 		timeCounter >= delay ifTrue: [
 			timeCounter := 0.
 			

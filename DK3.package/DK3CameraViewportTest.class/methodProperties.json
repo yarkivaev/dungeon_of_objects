@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testClampRejectsCameraOutsideWorldExtent" : "Auto 7/20/2026 23:45",
+		"testLevelSelectsDiscreteZoom" : "Auto 7/21/2026 00:13",
+		"testTransformToScreenReturnsIntegerPoint" : "Auto 7/20/2026 23:51",
+		"testWorldFromGridPlacesOriginTileAtNegativeHalfExtent" : "Auto 7/20/2026 23:45" } }

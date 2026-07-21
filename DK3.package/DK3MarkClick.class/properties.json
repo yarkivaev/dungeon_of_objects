@@ -1,0 +1,15 @@
+{
+	"category" : "DK3-GameMap",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "Auto 7/21/2026 01:25",
+	"instvars" : [
+		"screen",
+		"grid" ],
+	"name" : "DK3MarkClick",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

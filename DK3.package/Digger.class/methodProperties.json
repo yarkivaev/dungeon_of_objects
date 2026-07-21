@@ -2,5 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"decideAction:" : "Auto 7/21/2026 01:45",
 		"findWork" : "Egor 7/14/2026 11:30",
-		"initialize" : "Egor 7/13/2026 11:08" } }
+		"initialize" : "Andrew Fomin 7/20/2026 15:51",
+		"nearestMarks:limit:" : "Auto 7/21/2026 01:45" } }

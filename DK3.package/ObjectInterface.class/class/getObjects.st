@@ -1,3 +1,3 @@
 as yet unclassified
 getObjects
-	^objects.
+	^world getObjects.

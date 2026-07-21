@@ -1,0 +1,15 @@
+{
+	"category" : "DK3-Entities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"target",
+		"stand" ],
+	"name" : "DigAction",
+	"pools" : [
+		 ],
+	"super" : "GameAction",
+	"type" : "normal" }

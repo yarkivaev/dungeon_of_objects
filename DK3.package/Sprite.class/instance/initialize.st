@@ -2,7 +2,7 @@ as yet unclassified
 initialize
 	super initialize.
 	
-	ObjectInterface addObject: self.
+	"ObjectInterface addObject: self."
 	
 	x := 0.
 	y := 0.

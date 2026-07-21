@@ -8,14 +8,13 @@ update: deltaTime
 		
 		currentIndex > frames size ifTrue: [
 			currentIndex := 1.
-		].		
+		].
 		
-		form := frames at: currentIndex.
+		form := (frames at: currentIndex) asString.
 	
 		form := Form fromFileNamed: form.
 		form := form scaledToSize: width@height.
 	
-		morph := morph newForm: form.
-		
-		self drawMorph.
+		morph newForm: form.
+		morph position: x@y.
 	].

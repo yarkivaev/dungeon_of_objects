@@ -8,6 +8,8 @@ initialize
 	time := 90.
 	price := 1000.
 	
+	roomPath := 'sprites/Rooms/Incubator'.
+	
 	checkDelay := 15.
 	foodPrice := 25.
 	gold := 50.

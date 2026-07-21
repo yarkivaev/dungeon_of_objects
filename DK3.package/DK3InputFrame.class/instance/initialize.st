@@ -6,3 +6,4 @@ initialize
     mouseScroll := 0.
     keyboardState := Dictionary new.
     consumed := false.
+    mousePhase := #none.
