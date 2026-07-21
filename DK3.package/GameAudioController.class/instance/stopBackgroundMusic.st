@@ -1,5 +1,11 @@
 as yet unclassified
 stopBackgroundMusic
+    musicProcess ifNotNil: [
+        musicProcess terminate.
+        musicProcess := nil.
+    ].
+
     backgroundMusic ifNotNil: [
-        backgroundMusic stop.
-        backgroundMusic := nil ].
+        backgroundMusic pause.
+        backgroundMusic := nil.
+    ].
